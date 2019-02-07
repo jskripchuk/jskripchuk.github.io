@@ -1,49 +1,64 @@
-# Built with Jekyll 3.2.0
+# Base blog settings
+baseurl                      : ''
+url                          : 'https://minicomp.github.io'
 
-# Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
+blog:
+  title                      : Minicomp
+  description                : ''
+  logo_path                  : '/assets/img/logo2.svg'
+  search_path                : ''
+  hero_layout                : true
+  hero_placeholder           : '/assets/img/branch.jpg'
+  excerpts                   : true
+  inline_footnotes           : true
+  titles_only                : false
 
-# About/contact
+# Fonts
+  font                       : "Rubik', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif"
+  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
+
+# Author info
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  github                    : minicomp
+  gitter                    : minicomp
+  fullname                  : Marii Nyröp
+  rss                       : false
 
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+
+
+## Advanced blog settings
+
+# Gems
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Pagination
+paginate                     : 5
+paginate_path                : '/page-:num/'
 
 # Permalinks
-permalink: pretty
-permalink: /:title/
+permalink                    : notes/:slug
 
-# Set encoding to UTF-8
-encoding: utf-8
+# Posts
+excerpt_separator            : <!–-break-–>
 
-# Collections for texts
+# Tags
 collections:
-  texts:
+  tags:
     output: true
+    permalink: /tag/:slug
+  projects:
+    output: true
+    permalink: /projects/:slug
+defaults:
+  -
+    scope:
+      path: ''
+      type: my_tags
+    values:
+      layout: blog-by-tag
 
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Exclusions from the final site
-exclude:
-  - optional
-  - vendor
-
-# Theme
-theme: "ed."
+sass:
+  sass_dir                : _scss
+  style                   : compressed

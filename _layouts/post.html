@@ -2,7 +2,11 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="text-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+
+{% include post.html post=page %}
+
+{% if site.author.disqus %}
+    {% include externals/disqus.html %}
+{% endif %}
+
+{% include post/related.html %}
