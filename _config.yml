@@ -1,17 +1,17 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               'James Skripchuk'
-tagline:             'Professional in something, we just don't know what.'
+title:               Jimmy
+tagline:             'Professional in something, we just don't know what'
 description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://jskripchuk.github.io'
+url:                 'http://minicomp.github.io'
 baseurl:             ''
 
 # About/contact
 author:
-  name:              James Skripchuk
-  url:               ''
-  email:             ''
+  name:              Alex Gil
+  url:               https://twitter.com/elotroalex
+  email:             colibri.alex@gmail.com
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: cyan
