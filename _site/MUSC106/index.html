@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   <!-- Dublin Core metadata for Zotero -->
-  <meta name="DC.title" content="The Story of MUSC106 - Exposition" />
+  <meta name="DC.title" content="The Story of MUSC106 - Development" />
   <meta name="DC.creator" content="James Skripchuk" />
   <meta name="DC.contributor" content="" />
   <meta name="DC.date" content="" />
@@ -22,7 +22,7 @@
 
     <!-- Open Graph metadata -->
     
-    <meta property="og:title" content="The Story of MUSC106 - Exposition" />
+    <meta property="og:title" content="The Story of MUSC106 - Development" />
     <meta property="og:description" content="An Ed edition">
     <meta property="fb:admins" content="elotroalex" />
     <meta property="og:type" content="article" />
@@ -35,7 +35,7 @@
 
   <title>
     
-      The Story of MUSC106 - Exposition
+      The Story of MUSC106 - Development
     
   </title>
 
@@ -70,11 +70,18 @@
     <script>
         //Some loading blurbs
         var blurbs = ["Reticulating Splines",
-                      "D-E-F-A-E-C-D",
+                      "D-E-F-G-E-C-D",
                       "Jimmy'); DROP TABLE Students;--",
                       "ii-V-I",
                       "Notepad > Everything Else",
-                      "C# is just boneless Java"]
+                      "C# is just boneless Java",
+                      "MAXIMUM STOVERDRIVE",
+                      "Raeda in fossa est.",
+                      "Beep boop.",
+                      "Carthago delenda est.",
+                      "Assume ideal gas.",
+                      "π=e to one significant figure.",
+                      "[Gradient decends into your DMs]"]
         
         var rand = Math.floor(Math.random() * blurbs.length); 
         document.getElementById("line").innerHTML = blurbs[rand];
@@ -153,8 +160,22 @@
 
       <div class="container content" id="main">
         <div class="post">
-  <h1 class="text-title">The Story of MUSC106 - Exposition</h1>
-  <p>Coming soon!</p>
+  <h1 class="text-title">The Story of MUSC106 - Development</h1>
+  <p>Alright, so here I’m going to walk through all the activities that we did in the class, and explicate why we designed them the way we did and how we went about implementing them.</p>
+
+<h1 id="scraping-hooktheory">Scraping Hooktheory</h1>
+
+<p>Hooktheory has tons of data, so our first task was to figure out how to get it into a usable form. Ideally, the student’s would pick an artist that they liked, and then I could just write a script to scrape all of the songs off of Hooktheory by that artist. One of the first things I tried was to see if they had a public API that I could use to request various bits of information for artists and songs. Just send a GET request for a certain artist and their songs and <em>boom</em>, easy peasy.</p>
+
+<p>Well, turns out it wasn’t that easy peasy.</p>
+
+<p>Back then (and as of currently writing this), it looks like Hooktheory’s API doesn’t index by artist name or song tile. In fact, you could only search by chord progressions and chord progressions alone. So it looks like this API idea wasn’t as good as I expected it to be. After discussing this with the PI,she said instead of wasting time on this we could just have the student groups download the song files themselves. Since there was only around 30-40 songs per artist, and around 2-3 kids per group, it wasn’t <em>that</em> unreasonable for someone to spend 10 minutes downloading 10 or 20 songs.</p>
+
+<h1 id="hkt--json">.hkt &amp; .json</h1>
+<p>When I first started digging into how Hooktheory represented their songs, they rolled their own XML based data representation under the extension <em>.hkt</em>. So my first real steps into this project was writing a tiny parser that would turn the XML of a Hooktheory song into a nice Python object that I could work with.</p>
+
+<h1 id="hooktheory-latent-statistics-toolkit-holst">Hooktheory Latent Statistics Toolkit (HoLST)</h1>
+
 
 </div>
 

@@ -4,7 +4,7 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-12T15:40:19-05:00</updated>
+ <updated>2019-03-15T12:19:02-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
@@ -13,11 +13,125 @@
 
  
  <entry>
-   <title>The Story of MUSC106 - Exposition</title>
+   <title>Making Your First Bass Sound on the Korg MS-20 Mini</title>
+   <link href="http://localhost:4000/MS20/"/>
+   <updated>2019-03-13T00:00:00-04:00</updated>
+   <id>http://localhost:4000/MS20</id>
+   <content type="html">&lt;hr /&gt;
+
+&lt;h1 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;style&gt;
+.image {
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+&lt;/style&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/shot1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Congratulations for diving into the world of analog synthesizers! Creating sounds on a physical piece of hardware instead of computer software can be challenging at first, but crafting the sound with physical knobs instead of a mouse provides a much more intimate connection with your sound design.&lt;/p&gt;
+
+&lt;p&gt;Today, we will be programming a simple but powerful bass sound that can be used in many different styles of music. After this tutorial, you should be comfortable with navigating around the MS-20 Mini, and be able to play around and make custom sounds on your own.&lt;/p&gt;
+
+&lt;p&gt;Throughout this tutorial are audio files you can play to compare your sound to what it should roughly sound like.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;materials&quot;&gt;&lt;strong&gt;Materials&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;You will need:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Korg MS-20 Mini&lt;/li&gt;
+  &lt;li&gt;Tuning device or app&lt;/li&gt;
+  &lt;li&gt;8 Patch Cables&lt;/li&gt;
+  &lt;li&gt;Reverb Effects Unit (Optional)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sidenote-what-does-patch-mean&quot;&gt;&lt;em&gt;Sidenote: What does “Patch” mean?&lt;/em&gt;&lt;/h3&gt;
+
+&lt;p&gt;The word “patch” can be used as a verb or noun in synth lingo.&lt;/p&gt;
+
+&lt;p&gt;As a verb: “&lt;em&gt;to patch&lt;/em&gt;” means to connect two ports of a synth together via a cable. Most modern synthesizers (such as the MS-20 mini) use 3.5mm audio cables, which are commonly used as “AUX cords”. Patching together combinations of inputs and outputs gives analog synths to power to create diverse sounds.&lt;/p&gt;
+
+&lt;p&gt;As a noun: a synth &lt;em&gt;patch&lt;/em&gt; is a configuration that makes a certain sound. A &lt;em&gt;bass patch&lt;/em&gt; would make a low sound that sounds like a bass, while a &lt;em&gt;bell patch&lt;/em&gt; would sound more like a high pitched bell.&lt;/p&gt;
+
+&lt;p&gt;So in a sentence: &lt;em&gt;patching&lt;/em&gt; together different ports can make different sounding synth &lt;em&gt;patches&lt;/em&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;instructions&quot;&gt;&lt;strong&gt;Instructions&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;turn-on-the-ms-20-mini&quot;&gt;Turn On the MS-20 Mini&lt;/h2&gt;
+
+&lt;p&gt;The MS-20 Mini’s volume knob also serves as the power switch. Turn the knob clockwise until you hear a click, you should then see a red light labeled “On” turn on.&lt;/p&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/off.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/on.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can use this knob to adjust the volume at any time during the tutorial. To turn the synth off, turn the knob counterclockwise until you hear another click and the “On” light turns off.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tune-the-synth&quot;&gt;Tune The Synth&lt;/h2&gt;
+
+&lt;p&gt;Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.&lt;/p&gt;
+
+&lt;p&gt;Grab your tuning device. If you have a smartphone, there are many tuning apps available.&lt;/p&gt;
+
+&lt;p&gt;Hold down the C key on the keyboard. Compare the pitch to what it says on the tuning device.&lt;/p&gt;
+
+&lt;p&gt;Locate the “Master Tune” knob on the MS-20. It is on the left-bottom side, next to the “portamento” knob. Continue to hold the C key while adjusting the the Master Tune knob up or down until the pitches match.&lt;/p&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/tuning.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sawtooth.ogg&quot; type=&quot;audio/ogg&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Once the actual pitch for the C key is the note C, we’re ready to move on to creating our actual patch.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Story of MUSC106 - Development</title>
    <link href="http://localhost:4000/MUSC106/"/>
    <updated>2019-02-07T00:00:00-05:00</updated>
    <id>http://localhost:4000/MUSC106</id>
-   <content type="html">&lt;p&gt;Coming soon!&lt;/p&gt;
+   <content type="html">&lt;p&gt;Alright, so here I’m going to walk through all the activities that we did in the class, and explicate why we designed them the way we did and how we went about implementing them.&lt;/p&gt;
+
+&lt;h1 id=&quot;scraping-hooktheory&quot;&gt;Scraping Hooktheory&lt;/h1&gt;
+
+&lt;p&gt;Hooktheory has tons of data, so our first task was to figure out how to get it into a usable form. Ideally, the student’s would pick an artist that they liked, and then I could just write a script to scrape all of the songs off of Hooktheory by that artist. One of the first things I tried was to see if they had a public API that I could use to request various bits of information for artists and songs. Just send a GET request for a certain artist and their songs and &lt;em&gt;boom&lt;/em&gt;, easy peasy.&lt;/p&gt;
+
+&lt;p&gt;Well, turns out it wasn’t that easy peasy.&lt;/p&gt;
+
+&lt;p&gt;Back then (and as of currently writing this), it looks like Hooktheory’s API doesn’t index by artist name or song tile. In fact, you could only search by chord progressions and chord progressions alone. So it looks like this API idea wasn’t as good as I expected it to be. After discussing this with the PI,she said instead of wasting time on this we could just have the student groups download the song files themselves. Since there was only around 30-40 songs per artist, and around 2-3 kids per group, it wasn’t &lt;em&gt;that&lt;/em&gt; unreasonable for someone to spend 10 minutes downloading 10 or 20 songs.&lt;/p&gt;
+
+&lt;h1 id=&quot;hkt--json&quot;&gt;.hkt &amp;amp; .json&lt;/h1&gt;
+&lt;p&gt;When I first started digging into how Hooktheory represented their songs, they rolled their own XML based data representation under the extension &lt;em&gt;.hkt&lt;/em&gt;. So my first real steps into this project was writing a tiny parser that would turn the XML of a Hooktheory song into a nice Python object that I could work with.&lt;/p&gt;
+
+&lt;h1 id=&quot;hooktheory-latent-statistics-toolkit-holst&quot;&gt;Hooktheory Latent Statistics Toolkit (HoLST)&lt;/h1&gt;
+
 </content>
  </entry>
  
