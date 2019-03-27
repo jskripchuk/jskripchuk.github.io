@@ -4,7 +4,7 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-15T12:19:02-04:00</updated>
+ <updated>2019-03-27T11:11:02-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
@@ -72,7 +72,12 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;turn-on-the-ms-20-mini&quot;&gt;Turn On the MS-20 Mini&lt;/h2&gt;
+&lt;h2 id=&quot;basic-setup&quot;&gt;&lt;strong&gt;Basic Setup&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Use the following steps if this is your first time powering on the MS-20. If you’ve already made some sounds on MS-20 before, you can skip to section&lt;/em&gt; &lt;a href=&quot;#create&quot;&gt;&lt;strong&gt;Creating the Basic Sound&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-1-turn-on-the-ms-20-mini&quot;&gt;Step 1: Turn On the MS-20 Mini&lt;/h2&gt;
 
 &lt;p&gt;The MS-20 Mini’s volume knob also serves as the power switch. Turn the knob clockwise until you hear a click, you should then see a red light labeled “On” turn on.&lt;/p&gt;
 
@@ -87,7 +92,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;tune-the-synth&quot;&gt;Tune The Synth&lt;/h2&gt;
+&lt;h2 id=&quot;step-2-tune-the-synth&quot;&gt;Step 2: Tune The Synth&lt;/h2&gt;
 
 &lt;p&gt;Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.&lt;/p&gt;
 
@@ -109,6 +114,135 @@
 
 &lt;p&gt;Once the actual pitch for the C key is the note C, we’re ready to move on to creating our actual patch.&lt;/p&gt;
 
+&lt;hr /&gt;
+&lt;div id=&quot;create&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;creating-the-basic-sound&quot;&gt;&lt;strong&gt;Creating the Basic Sound&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-3-configuring-vco1&quot;&gt;Step 3: Configuring VCO1&lt;/h2&gt;
+
+&lt;p&gt;Locate the section headed &lt;strong&gt;Voltage Controlled Oscillator 1&lt;/strong&gt; (&lt;em&gt;VCO1&lt;/em&gt;). It is the leftmost panel on the upper half of the MS-20.&lt;/p&gt;
+
+&lt;p&gt;The highest knob is labeled &lt;strong&gt;Wave Form&lt;/strong&gt;. This knob controls the basic sound that this oscillator will produce. Turn this knob to the 1st position, which looks like a square wave.&lt;/p&gt;
+
+&lt;p&gt;Below the &lt;em&gt;Wave Form&lt;/em&gt; knob is a knob labeled &lt;strong&gt;PW&lt;/strong&gt;. &lt;em&gt;PW&lt;/em&gt; stands for &lt;em&gt;Pulse Width&lt;/em&gt;, which is how wide or narrow the square wave is. Turn this knob all the way to the left.&lt;/p&gt;
+
+&lt;p&gt;Below the &lt;em&gt;Wave Form&lt;/em&gt; knob is the knob labeled &lt;strong&gt;Scale&lt;/strong&gt;. This changes the octave of the waveform. Turn this to the lowest setting labeled &lt;strong&gt;&lt;em&gt;32’&lt;/em&gt;&lt;/strong&gt;, which all the way on the left.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;VCO1&lt;/em&gt; should now look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-4-configuring-vco2&quot;&gt;Step 4: Configuring VCO2&lt;/h2&gt;
+
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; (&lt;em&gt;VCO2&lt;/em&gt;), directly to the right of section &lt;em&gt;VCO1&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;strong&gt;Wave Form&lt;/strong&gt; knob, similar to Step 3. Turn the knob to the 1st position, which looks like a sawtooth wave.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;strong&gt;Scale&lt;/strong&gt; knob for VCO2(similar to VCO1). Turn this to the lowest position labeled &lt;em&gt;&lt;strong&gt;16’&lt;/strong&gt;&lt;/em&gt;, all the way on the left.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;VCO2&lt;/em&gt; should now look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-5-configuring-the-lowpass-filter&quot;&gt;Step 5: Configuring the Lowpass Filter&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Currently, the sound has a lot of high frequencies. Cutting these out will give a nicer bass sound. The &lt;strong&gt;Lowpass Filter&lt;/strong&gt; filters out the high frequencies and only leaves (passes through) the lower ones.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Locate the section labeled “Voltage Controlled Lowpass Filter” (&lt;em&gt;VCF&lt;/em&gt;). Focus on the large knob that says &lt;strong&gt;Cutoff Frequency&lt;/strong&gt;. Turn the &lt;em&gt;Cutoff Frequency&lt;/em&gt; knob to position 4.&lt;/p&gt;
+
+&lt;p&gt;Locate the smaller &lt;strong&gt;Peak&lt;/strong&gt; knob under the &lt;em&gt;Cutoff Frequency&lt;/em&gt; knob. Turn the &lt;em&gt;Peak&lt;/em&gt; knob to position 5.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Lowpass VCF&lt;/em&gt; should now look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-6-adjusting-the-volume-envelope&quot;&gt;Step 6: Adjusting the Volume Envelope&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Currently, the sound only plays at full volume and cuts out immediately. Real instruments have dynamics, the volume changes over time. The &lt;strong&gt;Volume Envelope&lt;/strong&gt; allows us to adjust how loud our sound is over time. To learn more about the Volume Envelope and how it works, go to the &lt;a href=&quot;#adsr&quot;&gt;&lt;strong&gt;Volume Envelope Footnote&lt;/strong&gt;&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Envelope Generator 2&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;strong&gt;Decay Time&lt;/strong&gt; knob. Turn this to position 3.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;strong&gt;Sustain Level&lt;/strong&gt; knob. Turn this to position 5.&lt;/p&gt;
+
+&lt;p&gt;Locate the &lt;strong&gt;Release Time&lt;/strong&gt; knob. Turn this to position 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Envelope Generator 2&lt;/em&gt; should look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-7&quot;&gt;Step 7:&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Congratulations on programming your very first bass sound on the MS-20!&lt;/em&gt; While this is a good general purpose sound, you may want to tweak it to fit whatever style of music you are producing. Here are some ideas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Idea 1&lt;/li&gt;
+  &lt;li&gt;Idea 2&lt;/li&gt;
+  &lt;li&gt;Idea 3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;footnotes&quot;&gt;&lt;strong&gt;Footnotes&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+&lt;div id=&quot;adsr&quot;&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;volume-envelope&quot;&gt;&lt;strong&gt;Volume Envelope&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;A volume envelope has 4 main components:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Attack&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How long the sound takes to go from silence to the maximum volume.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Decay&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How long it takes the sound to go from the maximum volume to the sustain volume&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sustain&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;The volume that the sound stays at for the duration of the held note&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Release&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;How long it takes for the sound to fade out after the key is released&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are often abbriviated as &lt;em&gt;ADSR&lt;/em&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/adsr.jpg&quot; /&gt;
+&lt;/div&gt;
 </content>
  </entry>
  

@@ -216,7 +216,12 @@
 
 <hr />
 
-<h2 id="turn-on-the-ms-20-mini">Turn On the MS-20 Mini</h2>
+<h2 id="basic-setup"><strong>Basic Setup</strong></h2>
+<p><em>Use the following steps if this is your first time powering on the MS-20. If you’ve already made some sounds on MS-20 before, you can skip to section</em> <a href="#create"><strong>Creating the Basic Sound</strong></a>.</p>
+
+<hr />
+
+<h2 id="step-1-turn-on-the-ms-20-mini">Step 1: Turn On the MS-20 Mini</h2>
 
 <p>The MS-20 Mini’s volume knob also serves as the power switch. Turn the knob clockwise until you hear a click, you should then see a red light labeled “On” turn on.</p>
 
@@ -231,7 +236,7 @@
 
 <hr />
 
-<h2 id="tune-the-synth">Tune The Synth</h2>
+<h2 id="step-2-tune-the-synth">Step 2: Tune The Synth</h2>
 
 <p>Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.</p>
 
@@ -253,6 +258,135 @@
 
 <p>Once the actual pitch for the C key is the note C, we’re ready to move on to creating our actual patch.</p>
 
+<hr />
+<div id="create">
+</div>
+
+<h2 id="creating-the-basic-sound"><strong>Creating the Basic Sound</strong></h2>
+
+<hr />
+
+<h2 id="step-3-configuring-vco1">Step 3: Configuring VCO1</h2>
+
+<p>Locate the section headed <strong>Voltage Controlled Oscillator 1</strong> (<em>VCO1</em>). It is the leftmost panel on the upper half of the MS-20.</p>
+
+<p>The highest knob is labeled <strong>Wave Form</strong>. This knob controls the basic sound that this oscillator will produce. Turn this knob to the 1st position, which looks like a square wave.</p>
+
+<p>Below the <em>Wave Form</em> knob is a knob labeled <strong>PW</strong>. <em>PW</em> stands for <em>Pulse Width</em>, which is how wide or narrow the square wave is. Turn this knob all the way to the left.</p>
+
+<p>Below the <em>Wave Form</em> knob is the knob labeled <strong>Scale</strong>. This changes the octave of the waveform. Turn this to the lowest setting labeled <strong><em>32’</em></strong>, which all the way on the left.</p>
+
+<p><em>VCO1</em> should now look like this:</p>
+<div>
+   <img class="image" src="/assets/synth-tutorial/panel1.jpg" />
+</div>
+
+<hr />
+
+<h2 id="step-4-configuring-vco2">Step 4: Configuring VCO2</h2>
+
+<p>Locate the section labeled <strong>Voltage Controlled Oscillator 2</strong> (<em>VCO2</em>), directly to the right of section <em>VCO1</em>.</p>
+
+<p>Locate the <strong>Wave Form</strong> knob, similar to Step 3. Turn the knob to the 1st position, which looks like a sawtooth wave.</p>
+
+<p>Locate the <strong>Scale</strong> knob for VCO2(similar to VCO1). Turn this to the lowest position labeled <em><strong>16’</strong></em>, all the way on the left.</p>
+
+<p><em>VCO2</em> should now look like this:</p>
+<div>
+   <img class="image" src="/assets/synth-tutorial/panel1.jpg" />
+</div>
+<hr />
+
+<h2 id="step-5-configuring-the-lowpass-filter">Step 5: Configuring the Lowpass Filter</h2>
+
+<p><em>Currently, the sound has a lot of high frequencies. Cutting these out will give a nicer bass sound. The <strong>Lowpass Filter</strong> filters out the high frequencies and only leaves (passes through) the lower ones.</em></p>
+
+<p>Locate the section labeled “Voltage Controlled Lowpass Filter” (<em>VCF</em>). Focus on the large knob that says <strong>Cutoff Frequency</strong>. Turn the <em>Cutoff Frequency</em> knob to position 4.</p>
+
+<p>Locate the smaller <strong>Peak</strong> knob under the <em>Cutoff Frequency</em> knob. Turn the <em>Peak</em> knob to position 5.</p>
+
+<p>The <em>Lowpass VCF</em> should now look like this:</p>
+<div>
+   <img class="image" src="/assets/synth-tutorial/panel1.jpg" />
+</div>
+
+<hr />
+
+<h2 id="step-6-adjusting-the-volume-envelope">Step 6: Adjusting the Volume Envelope</h2>
+
+<p><em>Currently, the sound only plays at full volume and cuts out immediately. Real instruments have dynamics, the volume changes over time. The <strong>Volume Envelope</strong> allows us to adjust how loud our sound is over time. To learn more about the Volume Envelope and how it works, go to the <a href="#adsr"><strong>Volume Envelope Footnote</strong></a></em></p>
+
+<p>Locate the section labeled <strong>Envelope Generator 2</strong>.</p>
+
+<p>Locate the <strong>Decay Time</strong> knob. Turn this to position 3.</p>
+
+<p>Locate the <strong>Sustain Level</strong> knob. Turn this to position 5.</p>
+
+<p>Locate the <strong>Release Time</strong> knob. Turn this to position 2.</p>
+
+<p><em>Envelope Generator 2</em> should look like this:</p>
+<div>
+   <img class="image" src="/assets/synth-tutorial/panel1.jpg" />
+</div>
+
+<hr />
+
+<h2 id="step-7">Step 7:</h2>
+
+<hr />
+
+<h1 id="conclusion"><strong>Conclusion</strong></h1>
+
+<hr />
+
+<p><em>Congratulations on programming your very first bass sound on the MS-20!</em> While this is a good general purpose sound, you may want to tweak it to fit whatever style of music you are producing. Here are some ideas:</p>
+
+<ul>
+  <li>Idea 1</li>
+  <li>Idea 2</li>
+  <li>Idea 3</li>
+</ul>
+
+<hr />
+
+<h1 id="footnotes"><strong>Footnotes</strong></h1>
+
+<hr />
+<div id="adsr">
+</div>
+
+<h2 id="volume-envelope"><strong>Volume Envelope</strong></h2>
+
+<p>A volume envelope has 4 main components:</p>
+
+<ul>
+  <li><strong>Attack</strong>
+    <ul>
+      <li>How long the sound takes to go from silence to the maximum volume.</li>
+    </ul>
+  </li>
+  <li><strong>Decay</strong>
+    <ul>
+      <li>How long it takes the sound to go from the maximum volume to the sustain volume</li>
+    </ul>
+  </li>
+  <li><strong>Sustain</strong>
+    <ul>
+      <li>The volume that the sound stays at for the duration of the held note</li>
+    </ul>
+  </li>
+  <li><strong>Release</strong>
+    <ul>
+      <li>How long it takes for the sound to fade out after the key is released</li>
+    </ul>
+  </li>
+</ul>
+
+<p>These are often abbriviated as <em>ADSR</em>.</p>
+
+<div>
+   <img class="image" src="/assets/synth-tutorial/adsr.jpg" />
+</div>
 
 </div>
 
