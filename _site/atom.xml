@@ -4,7 +4,7 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-29T18:27:09-04:00</updated>
+ <updated>2019-03-29T19:18:10-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
@@ -53,18 +53,8 @@
 &lt;p&gt;You will need:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Korg MS-20 Mini&lt;/li&gt;
-  &lt;li&gt;Tuning device or app&lt;/li&gt;
+  &lt;li&gt;Speakers or Headphones&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&quot;sidenote-what-does-patch-mean&quot;&gt;&lt;em&gt;Sidenote: What does “Patch” mean?&lt;/em&gt;&lt;/h3&gt;
-
-&lt;p&gt;The word “patch” can be used as a verb or noun in synth lingo.&lt;/p&gt;
-
-&lt;p&gt;As a verb: “&lt;em&gt;to patch&lt;/em&gt;” means to connect two ports of a synth together via a cable. Most modern synthesizers (such as the MS-20 mini) use 3.5mm audio cables, which are commonly used as “AUX cords”. Patching together combinations of inputs and outputs gives analog synths to power to create diverse sounds.&lt;/p&gt;
-
-&lt;p&gt;As a noun: a synth &lt;em&gt;patch&lt;/em&gt; is a configuration that makes a certain sound. A &lt;em&gt;bass patch&lt;/em&gt; would make a low sound that sounds like a bass, while a &lt;em&gt;bell patch&lt;/em&gt; would sound more like a high pitched bell.&lt;/p&gt;
-
-&lt;p&gt;So in a sentence: &lt;em&gt;patching&lt;/em&gt; together different ports can make different sounding synth &lt;em&gt;patches&lt;/em&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -73,46 +63,24 @@
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;&lt;strong&gt;Basic Setup&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;Use the following steps if this is your first time powering on the MS-20. If you’ve already made some sounds on MS-20 before, you can skip to section&lt;/em&gt; &lt;a href=&quot;#create&quot;&gt;&lt;strong&gt;Creating the Basic Sound&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you already used an MS-20 before, you can skip to&lt;/em&gt; &lt;a href=&quot;#create&quot;&gt;&lt;strong&gt;Creating the Basic Sound&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;step-1-turn-on-the-ms-20-mini-and-adjusting-the-volume&quot;&gt;Step 1: Turn On the MS-20 Mini and Adjusting the Volume&lt;/h2&gt;
 
-&lt;p&gt;Focus on the upper right hand corner of the synthesizer. You should see a large knob labeled &lt;strong&gt;Volume&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Plug your speakers or headphones into the &lt;strong&gt;Phones&lt;/strong&gt; port (shown in blue below).&lt;/p&gt;
+
+&lt;p&gt;Focus on the upper right hand corner of the synthesizer. You should see a large knob labeled &lt;strong&gt;Volume&lt;/strong&gt; (shown in red below).&lt;/p&gt;
 
 &lt;p&gt;Turn the &lt;strong&gt;Volume&lt;/strong&gt; knob clockwise, you should hear a click see a red “ON” light.&lt;/p&gt;
 
 &lt;p&gt;Adjust the volume of the synth to your liking.&lt;/p&gt;
 
 &lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/off.jpg&quot; /&gt;
-&lt;/div&gt;
-&lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/on.jpg&quot; /&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/ON.jpg&quot; /&gt;
 &lt;/div&gt;
 
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;step-2-tune-the-synth&quot;&gt;Step 2: Tune The Synth&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Grab your tuning device. If you have a smartphone, there are many tuning apps available.&lt;/p&gt;
-
-&lt;p&gt;Hold down the C key on the keyboard. Compare the pitch to what it says on the tuning device.&lt;/p&gt;
-
-&lt;p&gt;Locate the &lt;strong&gt;Master Tune&lt;/strong&gt; knob on the MS-20. It is on the left-bottom side, next to the &lt;strong&gt;Portamento&lt;/strong&gt; knob. Continue to hold the C key while adjusting the the Master Tune knob up or down until the pitches match.&lt;/p&gt;
-
-&lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/tuning.jpg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
-    &lt;audio controls=&quot;&quot;&gt;
-        &lt;source src=&quot;/assets/synth-tutorial/sawtooth.ogg&quot; type=&quot;audio/ogg&quot; /&gt;
-    &lt;/audio&gt;
-&lt;/div&gt;
 &lt;hr /&gt;
 &lt;div id=&quot;create&quot;&gt;
 &lt;/div&gt;
@@ -121,7 +89,7 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-3-configuring-vco1&quot;&gt;Step 3: Configuring VCO1&lt;/h2&gt;
+&lt;h2 id=&quot;step-2-configuring-vco1&quot;&gt;Step 2: Configuring VCO1&lt;/h2&gt;
 
 &lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 1&lt;/strong&gt; (&lt;em&gt;VCO1&lt;/em&gt;). It is the leftmost panel on the upper half of the MS-20.&lt;/p&gt;
 
@@ -136,9 +104,15 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCO1.jpg&quot; /&gt;
 &lt;/div&gt;
 
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound1.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
+
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-4-configuring-vco2&quot;&gt;Step 4: Configuring VCO2&lt;/h2&gt;
+&lt;h2 id=&quot;step-3-configuring-vco2&quot;&gt;Step 3: Configuring VCO2&lt;/h2&gt;
 
 &lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; (&lt;em&gt;VCO2&lt;/em&gt;), directly to the right of section &lt;em&gt;VCO1&lt;/em&gt;. These settings will be similar to &lt;em&gt;VCO1&lt;/em&gt;.&lt;/p&gt;
 
@@ -150,21 +124,31 @@
 &lt;div&gt;
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCO2.jpg&quot; /&gt;
 &lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound2.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-5-adjusting-the-volume-of-the-vcos&quot;&gt;Step 5: Adjusting the Volume of the VCOs&lt;/h2&gt;
+&lt;h2 id=&quot;step-4-adjusting-the-volume-of-the-vcos&quot;&gt;Step 4: Adjusting the Volume of the VCOs&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Currently, the sound has a lot of high frequencies. Cutting these out will give a nicer bass sound. The &lt;strong&gt;Lowpass Filter&lt;/strong&gt; filters out the high frequencies and only leaves (passes through) the lower ones.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Now we now have to make sure that both oscillators are at the correct volume.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Lowpass Filter&lt;/strong&gt; (&lt;em&gt;VCF&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Locate the section labeled &lt;strong&gt;VCO Mixer&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Turn the large &lt;strong&gt;Cutoff Frequency&lt;/strong&gt; knob to position 4.&lt;/p&gt;
+&lt;p&gt;Turn both &lt;strong&gt;VCO Level&lt;/strong&gt; knobs all the way to position 10.&lt;/p&gt;
 
-&lt;p&gt;Turn the smaller &lt;strong&gt;Peak&lt;/strong&gt; knob to position 5.&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;Lowpass VCF&lt;/em&gt; should now look like this:&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;VCO Mixer&lt;/em&gt; should now look like this:&lt;/p&gt;
 &lt;div&gt;
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCOMIX.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound3.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -184,6 +168,12 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCF.jpg&quot; /&gt;
 &lt;/div&gt;
 
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound4.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
+
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;step-6-adjusting-the-volume-envelope&quot;&gt;Step 6: Adjusting the Volume Envelope&lt;/h2&gt;
@@ -200,12 +190,37 @@
 
 &lt;p&gt;&lt;em&gt;Envelope Generator 2&lt;/em&gt; should look like this:&lt;/p&gt;
 &lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/ENVELOPE.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound5.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-7&quot;&gt;Step 7:&lt;/h2&gt;
+&lt;h2 id=&quot;step-7-adjusting-the-filter-envelope&quot;&gt;Step 7: Adjusting the Filter Envelope&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;We can use the volume envelope that we just created to also control the Lowpass Filter we set earlier. This will make our sound pop.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Cutoff Frequency Modulation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Leave the knob that says &lt;strong&gt;MG/T.EXT&lt;/strong&gt; all the way to the left.&lt;/p&gt;
+
+&lt;p&gt;Turn the &lt;strong&gt;EG2/EXT&lt;/strong&gt; knob to position 4.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cutoff Frequency Moudulation&lt;/em&gt; should look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/FILTERENV.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound6.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -213,13 +228,31 @@
 
 &lt;hr /&gt;
 
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/FINAL.jpg&quot; /&gt;
+&lt;/div&gt;
+
 &lt;p&gt;&lt;em&gt;Congratulations on programming your very first bass sound on the MS-20!&lt;/em&gt; While this is a good general purpose sound, you may want to tweak it to fit whatever style of music you are producing. Here are some ideas:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Idea 1&lt;/li&gt;
-  &lt;li&gt;Idea 2&lt;/li&gt;
-  &lt;li&gt;Idea 3&lt;/li&gt;
+  &lt;li&gt;Crank the &lt;strong&gt;Voltage Controlled Lowpass Filter&lt;/strong&gt; knob up to get a louder and more aggressive sound.&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound7.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change the &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; knob to &lt;strong&gt;__Ring__&lt;/strong&gt; to get a more metallic sound&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/sound8.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -256,11 +289,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;These are often abbriviated as &lt;em&gt;ADSR&lt;/em&gt;.&lt;/p&gt;
-
-&lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/adsr.jpg&quot; /&gt;
-&lt;/div&gt;
+&lt;p&gt;These are often abbreviated as &lt;em&gt;ADSR&lt;/em&gt;.&lt;/p&gt;
 </content>
  </entry>
  
