@@ -4,7 +4,7 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-27T11:11:02-04:00</updated>
+ <updated>2019-03-29T18:27:09-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
@@ -24,12 +24,14 @@
 &lt;hr /&gt;
 
 &lt;style&gt;
+
 .image {
  justify-content: center;
  align-items: center;
  margin-left: auto;
  margin-right: auto;
 }
+
 &lt;/style&gt;
 
 &lt;div&gt;
@@ -52,8 +54,6 @@
 &lt;ul&gt;
   &lt;li&gt;Korg MS-20 Mini&lt;/li&gt;
   &lt;li&gt;Tuning device or app&lt;/li&gt;
-  &lt;li&gt;8 Patch Cables&lt;/li&gt;
-  &lt;li&gt;Reverb Effects Unit (Optional)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;sidenote-what-does-patch-mean&quot;&gt;&lt;em&gt;Sidenote: What does “Patch” mean?&lt;/em&gt;&lt;/h3&gt;
@@ -77,9 +77,13 @@
 
 &lt;hr /&gt;
 
-&lt;h2 id=&quot;step-1-turn-on-the-ms-20-mini&quot;&gt;Step 1: Turn On the MS-20 Mini&lt;/h2&gt;
+&lt;h2 id=&quot;step-1-turn-on-the-ms-20-mini-and-adjusting-the-volume&quot;&gt;Step 1: Turn On the MS-20 Mini and Adjusting the Volume&lt;/h2&gt;
 
-&lt;p&gt;The MS-20 Mini’s volume knob also serves as the power switch. Turn the knob clockwise until you hear a click, you should then see a red light labeled “On” turn on.&lt;/p&gt;
+&lt;p&gt;Focus on the upper right hand corner of the synthesizer. You should see a large knob labeled &lt;strong&gt;Volume&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Turn the &lt;strong&gt;Volume&lt;/strong&gt; knob clockwise, you should hear a click see a red “ON” light.&lt;/p&gt;
+
+&lt;p&gt;Adjust the volume of the synth to your liking.&lt;/p&gt;
 
 &lt;div&gt;
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/off.jpg&quot; /&gt;
@@ -88,19 +92,17 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/on.jpg&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;You can use this knob to adjust the volume at any time during the tutorial. To turn the synth off, turn the knob counterclockwise until you hear another click and the “On” light turns off.&lt;/p&gt;
-
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;step-2-tune-the-synth&quot;&gt;Step 2: Tune The Synth&lt;/h2&gt;
 
-&lt;p&gt;Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Due to the analog nature of the MS-20, before starting you should check if the synth is in tune. A variety of factors such as heat and humidity can cause the internal circuits to change slowly over time and fall out of tune. This is normal, so it’s good to re-tune your synth every so often.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Grab your tuning device. If you have a smartphone, there are many tuning apps available.&lt;/p&gt;
 
 &lt;p&gt;Hold down the C key on the keyboard. Compare the pitch to what it says on the tuning device.&lt;/p&gt;
 
-&lt;p&gt;Locate the “Master Tune” knob on the MS-20. It is on the left-bottom side, next to the “portamento” knob. Continue to hold the C key while adjusting the the Master Tune knob up or down until the pitches match.&lt;/p&gt;
+&lt;p&gt;Locate the &lt;strong&gt;Master Tune&lt;/strong&gt; knob on the MS-20. It is on the left-bottom side, next to the &lt;strong&gt;Portamento&lt;/strong&gt; knob. Continue to hold the C key while adjusting the the Master Tune knob up or down until the pitches match.&lt;/p&gt;
 
 &lt;div&gt;
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/tuning.jpg&quot; /&gt;
@@ -111,9 +113,6 @@
         &lt;source src=&quot;/assets/synth-tutorial/sawtooth.ogg&quot; type=&quot;audio/ogg&quot; /&gt;
     &lt;/audio&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Once the actual pitch for the C key is the note C, we’re ready to move on to creating our actual patch.&lt;/p&gt;
-
 &lt;hr /&gt;
 &lt;div id=&quot;create&quot;&gt;
 &lt;/div&gt;
@@ -124,46 +123,65 @@
 
 &lt;h2 id=&quot;step-3-configuring-vco1&quot;&gt;Step 3: Configuring VCO1&lt;/h2&gt;
 
-&lt;p&gt;Locate the section headed &lt;strong&gt;Voltage Controlled Oscillator 1&lt;/strong&gt; (&lt;em&gt;VCO1&lt;/em&gt;). It is the leftmost panel on the upper half of the MS-20.&lt;/p&gt;
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 1&lt;/strong&gt; (&lt;em&gt;VCO1&lt;/em&gt;). It is the leftmost panel on the upper half of the MS-20.&lt;/p&gt;
 
-&lt;p&gt;The highest knob is labeled &lt;strong&gt;Wave Form&lt;/strong&gt;. This knob controls the basic sound that this oscillator will produce. Turn this knob to the 1st position, which looks like a square wave.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Wave Form&lt;/strong&gt; knob to the 3rd setting, which looks like two square waves. The &lt;em&gt;Wave Form&lt;/em&gt; knob controls the basic sound that this oscillator will produce.&lt;/p&gt;
 
-&lt;p&gt;Below the &lt;em&gt;Wave Form&lt;/em&gt; knob is a knob labeled &lt;strong&gt;PW&lt;/strong&gt;. &lt;em&gt;PW&lt;/em&gt; stands for &lt;em&gt;Pulse Width&lt;/em&gt;, which is how wide or narrow the square wave is. Turn this knob all the way to the left.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;PW&lt;/strong&gt; knob all the way to the left to the setting that looks like a square. The &lt;em&gt;PW&lt;/em&gt; knob is below the &lt;em&gt;Wave Form&lt;/em&gt; knob. &lt;em&gt;PW&lt;/em&gt; stands for &lt;em&gt;Pulse Width&lt;/em&gt;, which is how wide or narrow the square wave is.&lt;/p&gt;
 
-&lt;p&gt;Below the &lt;em&gt;Wave Form&lt;/em&gt; knob is the knob labeled &lt;strong&gt;Scale&lt;/strong&gt;. This changes the octave of the waveform. Turn this to the lowest setting labeled &lt;strong&gt;&lt;em&gt;32’&lt;/em&gt;&lt;/strong&gt;, which all the way on the left.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Scale&lt;/strong&gt; knob to the leftmost setting labeled &lt;strong&gt;&lt;em&gt;32’&lt;/em&gt;&lt;/strong&gt;. The &lt;em&gt;Scale&lt;/em&gt; knob is below the &lt;em&gt;PW&lt;/em&gt; knob, and changes the octave of the waveform.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;VCO1&lt;/em&gt; should now look like this:&lt;/p&gt;
 &lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCO1.jpg&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;step-4-configuring-vco2&quot;&gt;Step 4: Configuring VCO2&lt;/h2&gt;
 
-&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; (&lt;em&gt;VCO2&lt;/em&gt;), directly to the right of section &lt;em&gt;VCO1&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; (&lt;em&gt;VCO2&lt;/em&gt;), directly to the right of section &lt;em&gt;VCO1&lt;/em&gt;. These settings will be similar to &lt;em&gt;VCO1&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Locate the &lt;strong&gt;Wave Form&lt;/strong&gt; knob, similar to Step 3. Turn the knob to the 1st position, which looks like a sawtooth wave.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Wave Form&lt;/strong&gt; knob to the 1st setting, which looks like a sawtooth wave.&lt;/p&gt;
 
-&lt;p&gt;Locate the &lt;strong&gt;Scale&lt;/strong&gt; knob for VCO2(similar to VCO1). Turn this to the lowest position labeled &lt;em&gt;&lt;strong&gt;16’&lt;/strong&gt;&lt;/em&gt;, all the way on the left.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Scale&lt;/strong&gt; knob to the lowest setting labeled &lt;em&gt;&lt;strong&gt;16’&lt;/strong&gt;&lt;/em&gt;, all the way on the left.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;VCO2&lt;/em&gt; should now look like this:&lt;/p&gt;
 &lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCO2.jpg&quot; /&gt;
 &lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;step-5-adjusting-the-volume-of-the-vcos&quot;&gt;Step 5: Adjusting the Volume of the VCOs&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Currently, the sound has a lot of high frequencies. Cutting these out will give a nicer bass sound. The &lt;strong&gt;Lowpass Filter&lt;/strong&gt; filters out the high frequencies and only leaves (passes through) the lower ones.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Lowpass Filter&lt;/strong&gt; (&lt;em&gt;VCF&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;Turn the large &lt;strong&gt;Cutoff Frequency&lt;/strong&gt; knob to position 4.&lt;/p&gt;
+
+&lt;p&gt;Turn the smaller &lt;strong&gt;Peak&lt;/strong&gt; knob to position 5.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Lowpass VCF&lt;/em&gt; should now look like this:&lt;/p&gt;
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCOMIX.jpg&quot; /&gt;
+&lt;/div&gt;
+
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;step-5-configuring-the-lowpass-filter&quot;&gt;Step 5: Configuring the Lowpass Filter&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;Currently, the sound has a lot of high frequencies. Cutting these out will give a nicer bass sound. The &lt;strong&gt;Lowpass Filter&lt;/strong&gt; filters out the high frequencies and only leaves (passes through) the lower ones.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Locate the section labeled “Voltage Controlled Lowpass Filter” (&lt;em&gt;VCF&lt;/em&gt;). Focus on the large knob that says &lt;strong&gt;Cutoff Frequency&lt;/strong&gt;. Turn the &lt;em&gt;Cutoff Frequency&lt;/em&gt; knob to position 4.&lt;/p&gt;
+&lt;p&gt;Locate the section labeled &lt;strong&gt;Voltage Controlled Lowpass Filter&lt;/strong&gt; (&lt;em&gt;VCF&lt;/em&gt;).&lt;/p&gt;
 
-&lt;p&gt;Locate the smaller &lt;strong&gt;Peak&lt;/strong&gt; knob under the &lt;em&gt;Cutoff Frequency&lt;/em&gt; knob. Turn the &lt;em&gt;Peak&lt;/em&gt; knob to position 5.&lt;/p&gt;
+&lt;p&gt;Turn the large &lt;strong&gt;Cutoff Frequency&lt;/strong&gt; knob to position 4.&lt;/p&gt;
+
+&lt;p&gt;Turn the smaller &lt;strong&gt;Peak&lt;/strong&gt; knob to position 5.&lt;/p&gt;
 
 &lt;p&gt;The &lt;em&gt;Lowpass VCF&lt;/em&gt; should now look like this:&lt;/p&gt;
 &lt;div&gt;
-   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/panel1.jpg&quot; /&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/VCF.jpg&quot; /&gt;
 &lt;/div&gt;
 
 &lt;hr /&gt;
@@ -174,11 +192,11 @@
 
 &lt;p&gt;Locate the section labeled &lt;strong&gt;Envelope Generator 2&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Locate the &lt;strong&gt;Decay Time&lt;/strong&gt; knob. Turn this to position 3.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Decay Time&lt;/strong&gt; knob to position 3.&lt;/p&gt;
 
-&lt;p&gt;Locate the &lt;strong&gt;Sustain Level&lt;/strong&gt; knob. Turn this to position 5.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Sustain Level&lt;/strong&gt; knob to position 5.&lt;/p&gt;
 
-&lt;p&gt;Locate the &lt;strong&gt;Release Time&lt;/strong&gt; knob. Turn this to position 2.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Release Time&lt;/strong&gt; knob to position 3.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Envelope Generator 2&lt;/em&gt; should look like this:&lt;/p&gt;
 &lt;div&gt;
