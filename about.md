@@ -5,7 +5,7 @@ title: About Me
 
 My name is James Skripchuk, but you can just call me Jimmy! I'm working on a Computer Science degree in The University of Delaware's Honors College with a concentration in artificial intelligence and machine learning.
 
-Additionally, I'm also pursuing minors in Physics and Electrical Engineering. If you want a more detailed list of my accomplishments, you can download my [résumé](/download/skripchuk_james_resume.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
+Additionally, I'm also pursuing minors in Physics and Electrical Engineering. If you want a more detailed list of my accomplishments, you can download my [résumé](/download/skripchuk_james_resume_2019.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
 
 ## Recognition
 <style>
