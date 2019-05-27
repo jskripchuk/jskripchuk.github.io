@@ -122,7 +122,7 @@ When filling up his car at the gas station, the professor noticed [this sign](ht
    <img class="image" src="/assets/portfolio/flyer.png" >
 </div>
 
-This assignment was to design a flyer for my major. The goal of this flyer was to be engaging and follow the principles of good design. One of the main constraints was that we had to follow the [University of Delaware’s Brand Platform Style Guide](https://www.udel.edu/content/dam/udelImages/ocm/style-guide/brand-style-guide.pdf), which consisted of a list of constraints for colors, fonts, and language. Since some of the fonts in the style guide cost money, I emulated them the best I could with fonts I could find online. The picture is of my friend Alina Christenbury in her custom built Augmented Reality headset, and is used with permission. (Check out her [website!](http://alinac.me/))
+This assignment was to design a flyer for my major. The goal of this flyer was to be engaging and follow the principles of good design. One of the main constraints was that we had to follow the [University of Delaware’s Brand Platform Style Guide](https://www.udel.edu/content/dam/udelImages/ocm/style-guide/brand-style-guide.pdf), which consisted of a list of constraints for colors, fonts, and language. Since some of the fonts in the style guide cost money, so I emulated them the best I could with fonts I could find online. The picture is of my friend Alina Christenbury in her custom built Augmented Reality headset, and is used with permission. (Check out her [website!](http://alinac.me/))
 
 ***
 
