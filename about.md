@@ -16,20 +16,7 @@ Additionally, I'm also pursuing minors in Physics and Electrical Engineering. If
  margin-right: auto;
 }
 
-.flex-container {
-  margin-left: -50px;
-  margin-right: -50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
 
-
-.flex-container > div {
-  text-align: center;
-  width: 400px;
-}
 
 </style>
 

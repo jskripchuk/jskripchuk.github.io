@@ -4,13 +4,111 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-29T19:18:10-04:00</updated>
+ <updated>2019-05-26T23:07:15-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
    <email>jamesskripchuk@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Writing Portfolio</title>
+   <link href="http://localhost:4000/Portfolio/"/>
+   <updated>2019-05-19T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Portfolio</id>
+   <content type="html">&lt;style&gt;
+
+.image {
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+&lt;/style&gt;
+
+&lt;p&gt;For my technical communication class, we were asked to upload a portfolio of all the prompts we worked on over the semester. It consists of a variaty of writing and design work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;major-assignments&quot;&gt;&lt;strong&gt;Major Assignments&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;explain-like-im&quot;&gt;Explain Like I’m…&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;user-instructions&quot;&gt;User Instructions&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;screencast&quot;&gt;Screencast&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;project-proposal&quot;&gt;Project Proposal&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;portfolio-assignments&quot;&gt;&lt;strong&gt;Portfolio Assignments&lt;/strong&gt;&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;accessibility-at-the-gas-pump&quot;&gt;Accessibility at the Gas Pump&lt;/h2&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/pump.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;When filling up his car at the gas station, the professor noticed this sign and it’s poor design. It was to notify disabled drivers that they can receive help at the gas pump, but the font is simply too small to be read from inside a car. The goal of this portfolio prompt was to redesign this sign so that people can read and understand it quickly from a distance. I achieved this by using large icons, removing extraneous text, and bolding important phrases.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;major-flyer&quot;&gt;Major Flyer&lt;/h2&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/flyer.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This assignment was to design a flyer for my major. The goal of this flyer was to be engaging and follow the principles of good design. One of the main constraints was that we had to follow the University of Delaware’s Brand Platform Style Guide, which consisted of a list of constraints for colors, fonts, and language. Since some of the fonts in the style guide cost money, I emulated them the best I could with fonts I could find online. The picture is of my friend Alina Christenbury in her custom built Augmented Reality headset, and is used with permission. (Check out her website!)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;radically-revised-instructions&quot;&gt;Radically Revised Instructions&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;technical-writing-for-steve-harvey&quot;&gt;Technical Writing for Steve Harvey&lt;/h2&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/harv.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Remember the 2015 Miss Universe fiasco? If you don’t, Steve Harvey accidentally announced the wrong winner in the final moments of the competition. Harvey was ridiculed for a while after, but if you take a look at the announcement card he was given, you can’t really blame him. The card has no discernable structure or order to the way the names are shown, and the actual Miss Universe is hiding in the bottom right corner. The goal for this prompt was to “use the principles of good design in the readings to craft a winner’s card that can be read quickly and effectively in the high-pressure environment at the end of the Miss Universe broadcast.”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;usda-revision&quot;&gt;USDA Revision&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;tech-tip&quot;&gt;Tech Tip&lt;/h2&gt;
+
+&lt;div&gt;
+   &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/tip.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The goal of this prompt was to create a Tech Tip that was “Visually inspired by and resemble the following examples of tech tips from a popular technical communication textbook”. This Tech Tip was to be of something that is useful to others in a Technical Communications class, so I decided on a design themed tip.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;using-plain-language&quot;&gt;Using Plain Language&lt;/h2&gt;
+&lt;hr /&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Making Your First Bass Sound on the Korg MS-20 Mini</title>
@@ -245,7 +343,7 @@
 &lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Change the &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; knob to &lt;strong&gt;__Ring__&lt;/strong&gt; to get a more metallic sound&lt;/li&gt;
+  &lt;li&gt;Change the &lt;strong&gt;Voltage Controlled Oscillator 2&lt;/strong&gt; knob to &lt;strong&gt;Ring&lt;/strong&gt; to get a more metallic sound&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
@@ -294,24 +392,70 @@
  </entry>
  
  <entry>
-   <title>The Story of MUSC106 - Development</title>
+   <title>The Story of MUSC106 - Exposition</title>
    <link href="http://localhost:4000/MUSC106/"/>
    <updated>2019-02-07T00:00:00-05:00</updated>
    <id>http://localhost:4000/MUSC106</id>
-   <content type="html">&lt;p&gt;Alright, so here I’m going to walk through all the activities that we did in the class, and explicate why we designed them the way we did and how we went about implementing them.&lt;/p&gt;
+   <content type="html">&lt;p&gt;In the last weeks Spring semester of freshman year, I got a mass email sent out by the UDCS department.&lt;/p&gt;
 
-&lt;h1 id=&quot;scraping-hooktheory&quot;&gt;Scraping Hooktheory&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;[CS-BS-FRESHMAN-2173] Call for Applications to be the first UD Computational Reasoning Fellows&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Hooktheory has tons of data, so our first task was to figure out how to get it into a usable form. Ideally, the student’s would pick an artist that they liked, and then I could just write a script to scrape all of the songs off of Hooktheory by that artist. One of the first things I tried was to see if they had a public API that I could use to request various bits of information for artists and songs. Just send a GET request for a certain artist and their songs and &lt;em&gt;boom&lt;/em&gt;, easy peasy.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Work up to 10 hours per week during the Fall and Spring semesters
+with faculty for mentoring, support, and feedback as they develop and
+teach activities, modules, and lesson plans that address computational
+thinking in discipline-specific courses during the summer and fall
+semesters&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Serve as a peer leader in the faculty member’s course by supporting
+students participating in computational thinking activities&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Well, turns out it wasn’t that easy peasy.&lt;/p&gt;
+&lt;p&gt;At this point in college, I was still looking for research opperutities; or at least something to keep me busy and give me a little bit of purpose. (You can read me wax poetic about my Freshman year in a later post.) At that time I was working in UD:VIP doing high-performance computing and parallel programming (which was also not going too well) So I jumped at the chance and filled out the application.&lt;/p&gt;
 
-&lt;p&gt;Back then (and as of currently writing this), it looks like Hooktheory’s API doesn’t index by artist name or song tile. In fact, you could only search by chord progressions and chord progressions alone. So it looks like this API idea wasn’t as good as I expected it to be. After discussing this with the PI,she said instead of wasting time on this we could just have the student groups download the song files themselves. Since there was only around 30-40 songs per artist, and around 2-3 kids per group, it wasn’t &lt;em&gt;that&lt;/em&gt; unreasonable for someone to spend 10 minutes downloading 10 or 20 songs.&lt;/p&gt;
+&lt;p&gt;A few weeks later I got back a response, and I was accepted! The next steps were to attend a couple of introductory meetings where the heads of the program would explain the whole initiative and it’s goals.&lt;/p&gt;
 
-&lt;h1 id=&quot;hkt--json&quot;&gt;.hkt &amp;amp; .json&lt;/h1&gt;
-&lt;p&gt;When I first started digging into how Hooktheory represented their songs, they rolled their own XML based data representation under the extension &lt;em&gt;.hkt&lt;/em&gt;. So my first real steps into this project was writing a tiny parser that would turn the XML of a Hooktheory song into a nice Python object that I could work with.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1 id=&quot;so-whats-computational-thinking&quot;&gt;&lt;strong&gt;So What’s Computational Thinking?&lt;/strong&gt;&lt;/h1&gt;
+&lt;hr /&gt;
 
-&lt;h1 id=&quot;hooktheory-latent-statistics-toolkit-holst&quot;&gt;Hooktheory Latent Statistics Toolkit (HoLST)&lt;/h1&gt;
+&lt;p&gt;In my line of thinking, it’s to prevent this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgs.xkcd.com/comics/tasks.png&quot; alt=&quot;as always: relevant xkcd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Wikipedia defines it as (taken from Jeannette M. Wing):&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Computational Thinking is a set of problem-solving methods that involve expressing problems and their solutions in ways that a computer could execute.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;UD created a general rubric that splits CT into four main pillars:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Decomposition
+    &lt;ul&gt;
+      &lt;li&gt;Breaks a problem into its constituent subproblems&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Data
+    &lt;ul&gt;
+      &lt;li&gt;Analyze (or create) a data set that facilitates discovery of patterns and relationships&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Algorithms
+    &lt;ul&gt;
+      &lt;li&gt;Creates a series of ordered steps to solve a problem or achive a goal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Abstraction
+    &lt;ul&gt;
+      &lt;li&gt;Reduces complexity to create a general representation of a process or group of objects so it is not only appropriate for the immediate purpose or goal but can also be used in different contexts&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When I attended Computational Thinking conference after I was accepted to the program, one gentlemen raised his hand and asked “How is Computational Thinking different from normal problem solving skills?” It was a valid question, since on the surface both look like a solid framework for approaching a problem.&lt;/p&gt;
 
 </content>
  </entry>

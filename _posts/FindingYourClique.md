@@ -1,0 +1,5 @@
+My freshman year at UD was rough. Academically I was doing fine, amazing even; I was very lucky to have come from a college-prep high-school and many of my freshman year classes were just repeat of what I've seen before. 
+
+It was the culture shock that killed me. UD has a reputation for being a big party-school (according to their own students), so I thought that the living in the Honors Dorm would put me in a space of intellectual camaraderie that would help soothe the pain of my geeky high-school clique fragmenting across the US. I'm not the fastest friend, so I knew I would be awkward for the first couple weeks. 
+
+Well, eh, I guess you can say that *Work Hard, Play Hard* really rings true in Louis Redding Hall. Maybe I'm just a stuck-up teatotaller, but I wasn't jiving with most of my dorm-mates at that time. 

@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
   <!-- Dublin Core metadata for Zotero -->
-  <meta name="DC.title" content="The Story of MUSC106 - Development" />
+  <meta name="DC.title" content="The Story of MUSC106 - Exposition" />
   <meta name="DC.creator" content="James Skripchuk" />
   <meta name="DC.contributor" content="" />
   <meta name="DC.date" content="" />
@@ -22,7 +22,7 @@
 
     <!-- Open Graph metadata -->
     
-    <meta property="og:title" content="The Story of MUSC106 - Development" />
+    <meta property="og:title" content="The Story of MUSC106 - Exposition" />
     <meta property="og:description" content="An Ed edition">
     <meta property="fb:admins" content="elotroalex" />
     <meta property="og:type" content="article" />
@@ -35,7 +35,7 @@
 
   <title>
     
-      The Story of MUSC106 - Development
+      The Story of MUSC106 - Exposition
     
   </title>
 
@@ -160,21 +160,67 @@
 
       <div class="container content" id="main">
         <div class="post">
-  <h1 class="text-title">The Story of MUSC106 - Development</h1>
-  <p>Alright, so here I’m going to walk through all the activities that we did in the class, and explicate why we designed them the way we did and how we went about implementing them.</p>
+  <h1 class="text-title">The Story of MUSC106 - Exposition</h1>
+  <p>In the last weeks Spring semester of freshman year, I got a mass email sent out by the UDCS department.</p>
 
-<h1 id="scraping-hooktheory">Scraping Hooktheory</h1>
+<p><em>[CS-BS-FRESHMAN-2173] Call for Applications to be the first UD Computational Reasoning Fellows</em></p>
 
-<p>Hooktheory has tons of data, so our first task was to figure out how to get it into a usable form. Ideally, the student’s would pick an artist that they liked, and then I could just write a script to scrape all of the songs off of Hooktheory by that artist. One of the first things I tried was to see if they had a public API that I could use to request various bits of information for artists and songs. Just send a GET request for a certain artist and their songs and <em>boom</em>, easy peasy.</p>
+<ul>
+  <li>
+    <p>Work up to 10 hours per week during the Fall and Spring semesters
+with faculty for mentoring, support, and feedback as they develop and
+teach activities, modules, and lesson plans that address computational
+thinking in discipline-specific courses during the summer and fall
+semesters</p>
+  </li>
+  <li>
+    <p>Serve as a peer leader in the faculty member’s course by supporting
+students participating in computational thinking activities</p>
+  </li>
+</ul>
 
-<p>Well, turns out it wasn’t that easy peasy.</p>
+<p>At this point in college, I was still looking for research opperutities; or at least something to keep me busy and give me a little bit of purpose. (You can read me wax poetic about my Freshman year in a later post.) At that time I was working in UD:VIP doing high-performance computing and parallel programming (which was also not going too well) So I jumped at the chance and filled out the application.</p>
 
-<p>Back then (and as of currently writing this), it looks like Hooktheory’s API doesn’t index by artist name or song tile. In fact, you could only search by chord progressions and chord progressions alone. So it looks like this API idea wasn’t as good as I expected it to be. After discussing this with the PI,she said instead of wasting time on this we could just have the student groups download the song files themselves. Since there was only around 30-40 songs per artist, and around 2-3 kids per group, it wasn’t <em>that</em> unreasonable for someone to spend 10 minutes downloading 10 or 20 songs.</p>
+<p>A few weeks later I got back a response, and I was accepted! The next steps were to attend a couple of introductory meetings where the heads of the program would explain the whole initiative and it’s goals.</p>
 
-<h1 id="hkt--json">.hkt &amp; .json</h1>
-<p>When I first started digging into how Hooktheory represented their songs, they rolled their own XML based data representation under the extension <em>.hkt</em>. So my first real steps into this project was writing a tiny parser that would turn the XML of a Hooktheory song into a nice Python object that I could work with.</p>
+<hr />
+<h1 id="so-whats-computational-thinking"><strong>So What’s Computational Thinking?</strong></h1>
+<hr />
 
-<h1 id="hooktheory-latent-statistics-toolkit-holst">Hooktheory Latent Statistics Toolkit (HoLST)</h1>
+<p>In my line of thinking, it’s to prevent this.</p>
+
+<p><img src="https://imgs.xkcd.com/comics/tasks.png" alt="as always: relevant xkcd" /></p>
+
+<p>Wikipedia defines it as (taken from Jeannette M. Wing):</p>
+
+<p><em>Computational Thinking is a set of problem-solving methods that involve expressing problems and their solutions in ways that a computer could execute.</em></p>
+
+<p>UD created a general rubric that splits CT into four main pillars:</p>
+
+<ul>
+  <li>Decomposition
+    <ul>
+      <li>Breaks a problem into its constituent subproblems</li>
+    </ul>
+  </li>
+  <li>Data
+    <ul>
+      <li>Analyze (or create) a data set that facilitates discovery of patterns and relationships</li>
+    </ul>
+  </li>
+  <li>Algorithms
+    <ul>
+      <li>Creates a series of ordered steps to solve a problem or achive a goal</li>
+    </ul>
+  </li>
+  <li>Abstraction
+    <ul>
+      <li>Reduces complexity to create a general representation of a process or group of objects so it is not only appropriate for the immediate purpose or goal but can also be used in different contexts</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When I attended Computational Thinking conference after I was accepted to the program, one gentlemen raised his hand and asked “How is Computational Thinking different from normal problem solving skills?” It was a valid question, since on the surface both look like a solid framework for approaching a problem.</p>
 
 
 </div>
