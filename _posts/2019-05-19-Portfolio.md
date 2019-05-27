@@ -23,7 +23,7 @@ We had 4 major assignments across the semester, and a dozen or so small “portf
 
 The portfolio prompts are split into two sections: **design** and **writing**. 
 
-The design prompts are focused on anything that isn’t your traditional print document. This includes items such as flyers and posters. Design prompts were the most interesting to work on, gave me a newfound respect for graphic designers and their work. 
+The design prompts are focused on anything that isn’t your traditional print document. This includes items such as flyers and posters. Design prompts were the most interesting to work on, and gave me a newfound respect for graphic designers and their work. 
 
 The writing prompts are your more standard technical writing assignments. These include topics such as instructions and explaining a technical topic to a non-expert audience. While these were “less fun” than the design prompts, they were still very useful in honing my writing skills.
 
