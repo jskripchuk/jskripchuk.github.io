@@ -54,7 +54,7 @@ individuals who are more comfortable with math notation. Now with the math barri
 give a more ‘truthful’ explanation of how exactly the perceptron works using multiplication and
 addition. 
 
-## [Third Audience: Using only the Top "Ten-Hundred" Words in English](/assets/portfolio/ELI/poster.pdf)
+## [Third Audience: Using only the Top "Ten-Hundred" Words in English](/assets/portfolio/ELI/brain.pdf)
 
 The 1000 words constraint was the most fun to design. I took cues from Randall
 Munroe’s ​[Thing Explainer](https://xkcd.com/thing-explainer/)​ and made use of the blueprint aesthetic. I have to admit
