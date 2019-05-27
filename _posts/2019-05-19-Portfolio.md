@@ -112,7 +112,7 @@ If given more time, this would totally be an idea that I would flesh out further
    <img class="image" src="/assets/portfolio/pump.png" >
 </div>
 
-When filling up his car at the gas station, the professor noticed [this sign](http://readingsounds.net/wp-content/uploads/courses/410-techwriting/accessible-gas-refueling.jpg) and it’s poor design. It was to notify disabled drivers that they can receive help at the gas pump, but the font is simply too small to be read from inside a car. The goal of this portfolio prompt was to redesign this sign so that people can read and understand it quickly from a distance. I achieved this by using large icons, removing extraneous text, and bolding important phrases.
+When filling up his car at the gas station, the professor noticed [this sign](http://readingsounds.net/wp-content/uploads/courses/410-techwriting/accessible-gas-refueling.jpg) and its poor design. It was to notify disabled drivers that they can receive help at the gas pump, but the font is simply too small to be read from inside a car. The goal of this portfolio prompt was to redesign this sign so that people can read and understand it quickly from a distance. I achieved this by using large icons, removing extraneous text, and bolding important phrases.
 
 
 ***
