@@ -4,7 +4,7 @@
  <title>James Skripchuk</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-05-26T23:07:15-04:00</updated>
+ <updated>2019-05-27T01:49:03-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>James Skripchuk</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Writing Portfolio</title>
+   <title>Technical Communication Portfolio</title>
    <link href="http://localhost:4000/Portfolio/"/>
    <updated>2019-05-19T00:00:00-04:00</updated>
    <id>http://localhost:4000/Portfolio</id>
@@ -28,31 +28,94 @@
 
 &lt;/style&gt;
 
-&lt;p&gt;For my technical communication class, we were asked to upload a portfolio of all the prompts we worked on over the semester. It consists of a variaty of writing and design work.&lt;/p&gt;
+&lt;p&gt;In my Spring semester of Junior year, I took ENGL410 with &lt;a href=&quot;https://seanzdenek.com/&quot;&gt;Dr. Sean Zdenek&lt;/a&gt;. While the official name for this class was &lt;em&gt;Technical Writing&lt;/em&gt;, Dr. Zdenek preferred to call it &lt;em&gt;Technical Communication&lt;/em&gt;. His reason being that in the Internet era, people communicate using a multitude of modalities - not just writing. In his class, we talked about a host of topics. We talked about typical technical writing concepts such as sentence structure and using powerful verbs, but Dr. Zdenek introduced us to many different (and exciting!) concepts that you wouldn’t talk about in a typical technical writing course.&lt;/p&gt;
+
+&lt;p&gt;We talked about designing eye-catching documents, typography, effective YouTube tutorials, and making our writing accessible. This was as much of a design course as it was writing course. &lt;strong&gt;Yes, this class helped me become a better document writer, but I think this class helped me the most in becoming a better document &lt;em&gt;designer&lt;/em&gt;&lt;/strong&gt;. The strongest takeaways I had from this class were how to effectively chunk and highlight sections of my documents in order to maximize readability and scanability. Before I took this class, many of my documents consisted of unsegmented paragraphs with little to no headings. Now, I make sure to “trim the fat” and organize everything into neat hierarchical structures that can be understood at a glance.&lt;/p&gt;
+
+&lt;p&gt;We had 4 major assignments across the semester, and a dozen or so small “portfolio prompts” due at the end of the semester. On this page, you can find the 4 major assignments and 7 portfolio prompts.&lt;/p&gt;
+
+&lt;p&gt;The portfolio prompts are split into two sections: &lt;strong&gt;design&lt;/strong&gt; and &lt;strong&gt;writing&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The design prompts are focused on anything that isn’t your traditional print document. This includes items such as flyers and posters. Design prompts were the most interesting to work on, gave me a newfound respect for graphic designers and their work.&lt;/p&gt;
+
+&lt;p&gt;The writing prompts are your more standard technical writing assignments. These include topics such as instructions and explaining a technical topic to a non-expert audience. While these were “less fun” than the design prompts, they were still very useful in honing my writing skills.&lt;/p&gt;
+
+&lt;p&gt;If I had to choose a single assignment out all of these with respect to how useful it is for my future work, I would have to choose the Proposal document. I want to go to graduate school for Computer Science Education, so this assignment gave me the chance to see what writing a real proposal would be like. I spent a lot of time researching and coming up with a viable solution, and I would work on this proposal topic more if I had more time.&lt;/p&gt;
+
+&lt;p&gt;Anyway, enough with the reflection, let’s get on to the portfolio!&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;h1 id=&quot;major-assignments&quot;&gt;&lt;strong&gt;Major Assignments&lt;/strong&gt;&lt;/h1&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;explain-like-im&quot;&gt;Explain Like I’m…&lt;/h2&gt;
+&lt;h2 id=&quot;explain-like-im&quot;&gt;&lt;strong&gt;Explain Like I’m…&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;In this assignment, we were asked to explain a technical topic to three different audience levels. I chose to talk about one of the most fundamental algorithms in Machine Learning, the perceptron.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-audience-5th-graders&quot;&gt;&lt;a href=&quot;/assets/portfolio/ELI/poster.pdf&quot;&gt;First Audience: 5th Graders&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;I was especially interested in the challenge of trying to explain this topic to the fifth grade
+audience. I decided to explain my topic in the form of a classroom poster, similar to the ones I
+enjoyed reading on classroom walls when I was that age.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-audience-freshman-stem-major&quot;&gt;&lt;a href=&quot;/assets/portfolio/ELI/pro.pdf&quot;&gt;Second Audience: Freshman STEM Major&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;The audience for my professional document was high-school and college aged
+individuals who are more comfortable with math notation. Now with the math barrier gone, I can
+give a more ‘truthful’ explanation of how exactly the perceptron works using multiplication and
+addition.&lt;/p&gt;
+
+&lt;h2 id=&quot;third-audience-using-only-the-top-ten-hundred-words-in-english&quot;&gt;&lt;a href=&quot;/assets/portfolio/ELI/poster.pdf&quot;&gt;Third Audience: Using only the Top “Ten-Hundred” Words in English&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;The 1000 words constraint was the most fun to design. I took cues from Randall
+Munroe’s ​&lt;a href=&quot;https://xkcd.com/thing-explainer/&quot;&gt;Thing Explainer&lt;/a&gt;​ and made use of the blueprint aesthetic. I have to admit
+that this document is probably the least informative out of the three and takes a more general
+and humorous approach (much like Munroe’s explanations). The sheer limit of the constraint
+makes it very difficult to talk about basic mathematical operations&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;user-instructions&quot;&gt;User Instructions&lt;/h2&gt;
+&lt;h2 id=&quot;user-instructions&quot;&gt;&lt;strong&gt;User Instructions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;making-your-first-bass-sound-on-the-korg-ms-20-mini&quot;&gt;&lt;a href=&quot;https://jamesskripchuk.com/MS20/&quot;&gt;Making Your First Bass Sound on the Korg MS-20 Mini&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;For this assignment, we were asked to create a set of web-based instructions. I created a set of instructions to make a bass
+sound on a Korg MS-20 Mini Synthesizer. Synthesizers are electronic musical instruments that
+have the capability of producing many different types of sounds, but there can be a learning
+curve for absolute beginners. There are many settings, knobs, and wires that are involved, and
+it can quickly become overwhelming. Hopefully this helps some aspiring music nerd out there somewhere.&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;screencast&quot;&gt;Screencast&lt;/h2&gt;
+&lt;h2 id=&quot;screencast&quot;&gt;&lt;strong&gt;Screencast&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;creating-a-bootable-usb-drive-using-rufus&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bQNRCNs-BW0&quot;&gt;Creating a Bootable USB Drive using Rufus&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In this assignment, we were asked to create a short screencast tutorial for a technical topic of our choice. I chose creating a bootable USB drive using the Rufus tool.&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;project-proposal&quot;&gt;Project Proposal&lt;/h2&gt;
+&lt;h2 id=&quot;project-proposal&quot;&gt;&lt;strong&gt;Project Proposal&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;professional-development-workshops-to-increase-data-science-education-in-delaware-high-schools&quot;&gt;&lt;a href=&quot;/assets/portfolio/Proposal.pdf&quot;&gt;Professional Development Workshops to Increase Data Science Education in Delaware High Schools&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;This is one of the assignments I’m most proud of. Computer Science Education is something that I want pivot towards, and this project gave me a chance to practice my proposal writing skills (which I’ll probably need a lot of in graduate school).&lt;/p&gt;
+
+&lt;p&gt;This proposal was written for an imaginary organization called “The Delaware Foundation”. This organization looked for proposals from “residents of Newark and surrounding communities who are committed to improving the quality of life in our area.” The Delaware Foundation was willing to fund “any amount up to $10,000”&lt;/p&gt;
+
+&lt;p&gt;If given more time, this would totally be an idea that I would flesh out further.&lt;/p&gt;
+
 &lt;hr /&gt;
 
 &lt;hr /&gt;
 &lt;h1 id=&quot;portfolio-assignments&quot;&gt;&lt;strong&gt;Portfolio Assignments&lt;/strong&gt;&lt;/h1&gt;
 &lt;hr /&gt;
+
+&lt;h2 id=&quot;design-work&quot;&gt;&lt;strong&gt;Design Work&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;accessibility-at-the-gas-pump&quot;&gt;Accessibility at the Gas Pump&lt;/h2&gt;
@@ -61,7 +124,7 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/pump.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;When filling up his car at the gas station, the professor noticed this sign and it’s poor design. It was to notify disabled drivers that they can receive help at the gas pump, but the font is simply too small to be read from inside a car. The goal of this portfolio prompt was to redesign this sign so that people can read and understand it quickly from a distance. I achieved this by using large icons, removing extraneous text, and bolding important phrases.&lt;/p&gt;
+&lt;p&gt;When filling up his car at the gas station, the professor noticed &lt;a href=&quot;http://readingsounds.net/wp-content/uploads/courses/410-techwriting/accessible-gas-refueling.jpg&quot;&gt;this sign&lt;/a&gt; and it’s poor design. It was to notify disabled drivers that they can receive help at the gas pump, but the font is simply too small to be read from inside a car. The goal of this portfolio prompt was to redesign this sign so that people can read and understand it quickly from a distance. I achieved this by using large icons, removing extraneous text, and bolding important phrases.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;h2 id=&quot;major-flyer&quot;&gt;Major Flyer&lt;/h2&gt;
@@ -70,12 +133,8 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/flyer.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;This assignment was to design a flyer for my major. The goal of this flyer was to be engaging and follow the principles of good design. One of the main constraints was that we had to follow the University of Delaware’s Brand Platform Style Guide, which consisted of a list of constraints for colors, fonts, and language. Since some of the fonts in the style guide cost money, I emulated them the best I could with fonts I could find online. The picture is of my friend Alina Christenbury in her custom built Augmented Reality headset, and is used with permission. (Check out her website!)&lt;/p&gt;
+&lt;p&gt;This assignment was to design a flyer for my major. The goal of this flyer was to be engaging and follow the principles of good design. One of the main constraints was that we had to follow the &lt;a href=&quot;https://www.udel.edu/content/dam/udelImages/ocm/style-guide/brand-style-guide.pdf&quot;&gt;University of Delaware’s Brand Platform Style Guide&lt;/a&gt;, which consisted of a list of constraints for colors, fonts, and language. Since some of the fonts in the style guide cost money, I emulated them the best I could with fonts I could find online. The picture is of my friend Alina Christenbury in her custom built Augmented Reality headset, and is used with permission. (Check out her &lt;a href=&quot;http://alinac.me/&quot;&gt;website!&lt;/a&gt;)&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;radically-revised-instructions&quot;&gt;Radically Revised Instructions&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;hr /&gt;
@@ -85,12 +144,8 @@
    &lt;img class=&quot;image&quot; src=&quot;/assets/portfolio/harv.png&quot; /&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Remember the 2015 Miss Universe fiasco? If you don’t, Steve Harvey accidentally announced the wrong winner in the final moments of the competition. Harvey was ridiculed for a while after, but if you take a look at the announcement card he was given, you can’t really blame him. The card has no discernable structure or order to the way the names are shown, and the actual Miss Universe is hiding in the bottom right corner. The goal for this prompt was to “use the principles of good design in the readings to craft a winner’s card that can be read quickly and effectively in the high-pressure environment at the end of the Miss Universe broadcast.”&lt;/p&gt;
+&lt;p&gt;Remember the 2015 Miss Universe fiasco? If you don’t, &lt;a href=&quot;https://www.youtube.com/watch?v=3DKDaSd-4nY&quot;&gt;Steve Harvey accidentally announced the wrong winner in the final moments of the competition&lt;/a&gt;. Harvey was ridiculed for a while after, but if you take a look at the announcement card he was given, you can’t really blame him. &lt;a href=&quot;http://readingsounds.net/wp-content/uploads/courses/413-GettingThingsDone/MissUniverse-WinnersCard-Original-2015.jpg&quot;&gt;The card has no discernable structure or order to the way the names are shown, and the actual Miss Universe is hiding in the bottom right corner.&lt;/a&gt; The goal for this prompt was to “use the principles of good design in the readings to craft a winner’s card that can be read quickly and effectively in the high-pressure environment at the end of the Miss Universe broadcast.”&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;usda-revision&quot;&gt;USDA Revision&lt;/h2&gt;
 &lt;hr /&gt;
 
 &lt;hr /&gt;
@@ -105,7 +160,36 @@
 &lt;hr /&gt;
 
 &lt;hr /&gt;
-&lt;h2 id=&quot;using-plain-language&quot;&gt;Using Plain Language&lt;/h2&gt;
+&lt;h2 id=&quot;writing-work&quot;&gt;&lt;strong&gt;Writing Work&lt;/strong&gt;&lt;/h2&gt;
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;writing-for-a-non-expert-audience&quot;&gt;Writing for a Non-Expert Audience&lt;/h2&gt;
+
+&lt;h3 id=&quot;download-the-pdf-here&quot;&gt;&lt;a href=&quot;/assets/portfolio/GANs.pdf&quot;&gt;Download the PDF here.&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In this assignment, we were asked to “translate” a piece of technical information from our major to be understood by a non-expert audience. For this topic, I picked a hot topic in machine learning - Generative Adversarial Networks. We were asked to cite some Federal Plain Language guidelines that were used.&lt;/p&gt;
+
+&lt;p&gt;Two of the main guidelines that I aimed to follow was to &lt;a href=&quot;https://plainlanguage.gov/guidelines/conversational/&quot;&gt;keep it conversational&lt;/a&gt; and &lt;a href=&quot;https://plainlanguage.gov/guidelines/audience/&quot;&gt;write for your audience&lt;/a&gt;. I used an extended analogy in order to try and make the concept as easy to understand as possible. I also tried to use &lt;a href=&quot;https://plainlanguage.gov/guidelines/design/&quot;&gt;good design principles&lt;/a&gt;, such as using a right ragged edge and using serif fonts.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;radically-revised-instructions&quot;&gt;Radically Revised Instructions&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/portfolio/Battery.pdf&quot;&gt;Download the PDF here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our professor ordered a new laptop battery off of Amazon, and it came with &lt;a href=&quot;http://readingsounds.net/wp-content/uploads/courses/410-techwriting/battery-instructions.jpg&quot;&gt;these instructions.&lt;/a&gt; These were obviously written by someone with a poor grasp of the English language, so it was our job to radically revise the instructions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+&lt;h2 id=&quot;usda-revision&quot;&gt;USDA Revision&lt;/h2&gt;
+
+&lt;h3 id=&quot;download-the-pdf-here-1&quot;&gt;&lt;a href=&quot;/assets/portfolio/USDA.pdf&quot;&gt;Download the PDF here.&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;In this assignment, we were asked to revise a letter from the USDA in our textbook and remove weak verbs. I have to admit that this was the hardest portfolio prompt out of them all, since it used a lot of domain specific jargon. It was hard to parse the original document, so hopefully my interpretation makes more sense. (I don’t have a high quality image of the textbook letter handy, and I don’t know if I would be allowed to reprint it here.)&lt;/p&gt;
+
 &lt;hr /&gt;
 </content>
  </entry>
@@ -280,11 +364,15 @@
 
 &lt;p&gt;Locate the section labeled &lt;strong&gt;Envelope Generator 2&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Turn the &lt;strong&gt;Decay Time&lt;/strong&gt; knob to position 3.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Hold Time&lt;/strong&gt; knob to position 0.&lt;/p&gt;
 
-&lt;p&gt;Turn the &lt;strong&gt;Sustain Level&lt;/strong&gt; knob to position 5.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Attack Time&lt;/strong&gt; knob to position 0.&lt;/p&gt;
 
-&lt;p&gt;Turn the &lt;strong&gt;Release Time&lt;/strong&gt; knob to position 3.&lt;/p&gt;
+&lt;p&gt;Turn the &lt;strong&gt;Decay Time&lt;/strong&gt; knob to position 2.&lt;/p&gt;
+
+&lt;p&gt;Turn the &lt;strong&gt;Sustain Level&lt;/strong&gt; knob to position 0.&lt;/p&gt;
+
+&lt;p&gt;Turn the &lt;strong&gt;Release Time&lt;/strong&gt; knob to position 1.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Envelope Generator 2&lt;/em&gt; should look like this:&lt;/p&gt;
 &lt;div&gt;
@@ -328,6 +416,12 @@
 
 &lt;div&gt;
    &lt;img class=&quot;image&quot; src=&quot;/assets/synth-tutorial/FINAL.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin: 0 auto; display: table;&quot;&gt;
+    &lt;audio controls=&quot;&quot;&gt;
+        &lt;source src=&quot;/assets/synth-tutorial/final.mp3&quot; type=&quot;audio/mp3&quot; /&gt;
+    &lt;/audio&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;Congratulations on programming your very first bass sound on the MS-20!&lt;/em&gt; While this is a good general purpose sound, you may want to tweak it to fit whatever style of music you are producing. Here are some ideas:&lt;/p&gt;
