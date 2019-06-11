@@ -2,6 +2,7 @@
 layout: post
 author: James Skripchuk
 title: "Technical Communication Portfolio"
+excerpt: "Portfolio from my Tech Comm class at UD"
 ---
 
 <style>
@@ -67,7 +68,7 @@ makes it very difficult to talk about basic mathematical operations
 ***
 ## **User Instructions**
 
-## [Making Your First Bass Sound on the Korg MS-20 Mini](https://jamesskripchuk.com/MS20/)
+## [Making Your First Bass Sound on the Korg MS-20 Mini]({{ site.baseurl }}{% link assets/MS20.md %})
 
 For this assignment, we were asked to create a set of web-based instructions. I created a set of instructions to make a bass
 sound on a Korg MS-20 Mini Synthesizer. Synthesizers are electronic musical instruments that
