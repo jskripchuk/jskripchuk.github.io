@@ -123,6 +123,111 @@ Examples:
 Users who don't understand this hare easily manipulated a consumers, voters, and citizens. Uses who also don't understand are more likely to "be on the sidelines of future societal change."
 
 
+No equity could lead to a "digital divide".
+
+# Sustainable Implementation and Systemiic Obscitals
+
+What are the key components needed across the Ced system to support wider and more effective implementation?
+
+Six facets:
+>Equity
+>Scaling
+>Quality of Implementation
+>Pluralism
+>Curriculum
+>Teacher Development
+
+## Equity
+
+Richer schools have better and more prepared and customized computing programs, while poorer schools are ill-prepared and are standardized. Numbers of students enrolled in APCS isn't the best metric of the quality of CS Education.
+
+Also we need focus on culturally relevant curricula, people are more likely to enjoy computing if its releveant to their daily life.
+
+"If we don't make computing mandatory, we know from previous experience that self-selecting groups of people will choose computing"
+
+## Scaling and assessment
+
+Fixed curricula, standardized assessments, and inflexeible teacher training programs do not foster real scientific or mathematical thinking in students, and havea questinable track record for motivating students to persue STEM carreers.
+
+CEd lends itself well for that sweet, sweet, interdicinplary work.
+
+CS is easier to be "creative" with, and you can tinker around and create something cool really easily.
+
+## Reliance on Surface Level, Low-quality solutions
+
+Public education of CS is usally superficial and overly simplifed.
+
+"Almost no one uses Boolean logic. They use variables but just as a count or a score. You barely ever see expressions with variables being used or you will rarely see a loop with a terminating condition that is controlledc by a Boolean expression with variables... [Most children] used the simplist constructs."
+
+To address this, create partnerships bectween researchers and governments. 
+
+Federal and state-level organizations "urgently need technical assistance" around creating cdertifications, growing the Ced teacher pipline, and implementing curricula. - Youngpradit
+
+Lack of professionals and specific organizations that can offere these services.
+
+
+
+#Pluralism
+
+It is important to allow different ways of doing computing (such as programming languages, developmental elvels, and approaches to practice).
+
+Some automated assesment programs grade students based off of surface level features such as numbers and types of blocks. 
+
+#Curriculum and Instructional Materials
+
+Where's our K-12 CS curriculum?
+
+Key Point: Make sure your curriculum is engaging.
+
+Three approaches of evaluation
+
+> focus general problem solving skills
+
+Learning transfer is a meme. It doesn't magically happen when you teach CS and you have to put real focused work if you want students to generalize. 
+
+
+> focus on learning a particular programming langauge
+
+The most common curricilum. Its alright, but limited and too vocational. (Learn X in Y weeks, etc.)
+
+AP CS Principles seems to be moving the right direction, focus less on the language and foundational concepts.
+
+> focus on code production or project based courses
+
+Progress and develop more complex systems over time into projects.
+
+Make use of Computer Science inspired mathmatics and science practices.
+
+Computers have led to new fields such as 
+
+>bioinformatics
+>computational statistics (machine learning lel)
+>chemometrics
+>neuroinformatics
+>numerical analysis
+
+
+These involve
+>dealing with open ended problems
+>creation of abstractions
+>recognizing and addressing ambiguity in algorithms
+>manipulating and analyzing data
+.Creating models and simulations
+
+"Computation makes the science and the math much more real, authentic, and engaging" - Grover
+
+Since carving out space in the busy CS K-8 curricilum woudl be challenge, infusing CS into math+science would be a good option.
+
+## Teacher development
+
+Professional development of teachers is key.
+
+We need teacher certification, traning programs ,and incentives for teachers to seek qualifications.
+
+Teachers need to practice inclusive CSEd and complete bias education.
+
+Can we even train enough teachers releative to how much CEd is exploding?
+
 
 
 
