@@ -30,5 +30,5 @@ I am very grateful to have received the 2018 Steven Geracimos Memorial Award by 
 
 ## Hobbies
 
-I have a passion for science and science education. I'm a total music theory nerd with a penchant for [digital fusion](https://www.digifumusic.com/), jazz, and experimental electronic music.
+I have a passion for science and science education. I'm a total music theory nerd with a penchant for [digital fusion](https://www.digifumusic.com/), jazz, and experimental electronic music. Anonymity on the internet is fake, so you'll probably be able to find my musical alias if you look hard enough.
 
