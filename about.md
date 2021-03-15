@@ -30,7 +30,5 @@ I am very grateful to have received the 2018 Steven Geracimos Memorial Award by 
 
 ## Hobbies
 
-I have a passion for science and science education. I'm a total music theory nerd with a penchant for jazz and experimental electronic music.
-
-I'm an alumni of [MOE 365](http://moe365.org/), a robotics team consisting of high-schoolers from the tri-state area. I also mentor for one of [Newark Charter School's](https://www.newarkcharterschool.org/) robotics teams and help middle school children develop science and engineering skills.
+I have a passion for science and science education. I'm a total music theory nerd with a penchant for [digital fusion](https://www.digifumusic.com/), jazz, and experimental electronic music.
 
