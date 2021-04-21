@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-My name is James Skripchuk, but you can just call me Jimmy! I'm working on my Computer Science PhD at [North Carolina State University](https://www.ncsu.edu/) with a focus in Computer Science Education.
+My name is James Skripchuk, and I'm working on my Computer Science PhD at [North Carolina State University](https://www.ncsu.edu/) with a focus in Computer Science Education.
 
 I am interested on how we can use data-driven methods to make learning Computer Science more accessible and authentic. My current research at the [HINTS Lab](https://hintslab.wordpress.ncsu.edu/) is investigating how students learn and conceptualize machine learning models. In addition to this, I am also interested in understanding how novice programmers seek for help on the Internet when they are stuck.
 
