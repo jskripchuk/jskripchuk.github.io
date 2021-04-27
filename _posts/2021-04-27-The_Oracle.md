@@ -1,7 +1,7 @@
 ---
 layout: post
 author: James Skripchuk
-title: "SCP-320505: Beowulf"
+title: "SCP-320505: The Oracle Machine"
 excerpt: "REQUIRED SECURITY CLEARANCE: LEVEL RHO"
 ---
 
