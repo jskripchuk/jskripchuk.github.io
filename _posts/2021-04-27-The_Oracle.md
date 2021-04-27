@@ -29,7 +29,7 @@ SCP-320505 runs off of Windows XP, and is mostly stock in terms of installed pro
 
 At first glance, SCP-320505-A seems like an ordinary computer sudoku game. It has a collection of preset sudoku puzzles, a puzzle generator, and a way for users to create puzzles. The object of interest in SCP-320505-A is the puzzle creation suite. Once a user creates a puzzle, there is an option for the program to attempt to solve the puzzle.
 
-The puzzle solving algorithm is abnormally fast. Extended empirical testing by Foundation computer scientists imply that the time complexity of the solving algorithm is O(n^█), where *n*×*n* is the size of the sudoku board. Since sudoku solving can be reduced to the [exact cover problem](https://en.wikipedia.org/wiki/Exact_cover), this implies that SCP-320505-A can solve problems in NP in Polynomial Time, thus implying P=NP.
+The puzzle solving algorithm is abnormally fast. Extended empirical testing by Foundation computer scientists imply that the time complexity of the solving algorithm is O(n^█), where *n*×*n* is the size of the sudoku board. Since sudoku solving can be reduced to the [exact cover problem](https://en.wikipedia.org/wiki/Exact_cover), this implies that SCP-320505-A can solve problems within NP in Polynomial time, thus possibly implying [P=NP](https://en.wikipedia.org/wiki/P_versus_NP_problem).
 
 Any attempt to reverse engineer the code for SCP-320505-A have failed. Any sort of decompilation (e.g. using [Ghidra](https://ghidra-sre.org/) and in-house foundation tools) results in undecipherable and intractable results.
 
@@ -75,7 +75,7 @@ Foundation Computer Scientists have constructed various reductions of common NP 
 
 **Date**: ██-██-██
 
-**Problem**: AES Encryption (265-bit)
+**Problem**: AES Encryption (256-bit)
 
 **Results**: The encoded string was cracked in a total compute time of █ months. Compare that to the theoretical limit of 1 billion *billion* years for standard brute-force algorithms.
 
