@@ -79,7 +79,7 @@ Foundation Computer Scientists have constructed various reductions of common NP 
 
 **Results**: The encoded string was cracked in a total compute time of █ months. Compare that to the theoretical limit of 1 billion *billion* years for standard brute-force algorithms.
 
-**Experimenter's Note**: In *no way* can this SCP-320505 make contact with the outside world without a high amount of foundation security. Essentially, every cryptosystem in the world we know today would be rendered useless. Banks will crumble, nation state secret's will be revealed. We need to get serious about quantum cryptography *now*.
+**Experimenter's Note**: In *no way* can this SCP-320505 make contact with the outside world without a high amount of foundation security. Essentially, every cryptosystem in the world we know today would be rendered useless. Banks will crumble, and nation state secrets will be all but useless. We need to get serious about quantum cryptography *now*.
 
 
 
