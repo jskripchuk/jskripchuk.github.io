@@ -7,7 +7,7 @@ My name is James Skripchuk, and I'm working on my Computer Science PhD at [North
 
 I am interested on how we can use data-driven methods to make learning Computer Science more accessible and authentic. My current research at the [HINTS Lab](https://hintslab.wordpress.ncsu.edu/) is investigating how students learn and conceptualize machine learning models. In addition to this, I am also interested in understanding how novice programmers seek for help on the Internet when they are stuck.
 
-If you want a more detailed list of my accomplishments, you can download my [CV](/download/skripchuk_cv_2021_v2.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
+If you want a more detailed list of my accomplishments, you can download my [CV](/download/skripchuk_cv_2022.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
 
 ## Recognition
 <style>
