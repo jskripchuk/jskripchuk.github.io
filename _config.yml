@@ -1,4 +1,4 @@
-# Built with Jekyll 3.2.0
+# Built with Jekyll 3.6.0
 
 # Setup
 title:               James Skripchuk
@@ -44,6 +44,19 @@ kramdown:
 exclude:
   - optional
   - vendor
+  - ed..gemspec
+  - Gemfile
+  - Gemfile.lock
+  - backstop_data
+  - backstop.json
 
 # Theme
-theme: "ed."
+# (Used for local or custom-server deployments)
+# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
+# See https://jekyllrb.com/docs/themes/
+# theme: "ed."
+
+# Remote Theme
+# (Used only for GitHub deployments)
+# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
+remote_theme: minicomp/ed

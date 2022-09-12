@@ -1,37 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+  <head prefix="og: http://ogp.me/ns#; dc: http://purl.org/dc/terms/#">
+  
+  
   <!-- Canonical link to help search engines -->
-  <link rel="canonical" href="/texts/o-captain/" />
+  <link rel="canonical" href="http://localhost:4000/texts/o-captain/" />
 
   <!-- Basic meta elements -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
 
   <!-- Enable responsiveness on mobile devices -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-
-  <!-- Dublin Core metadata for Zotero -->
-  <meta name="DC.title" content="O Captain! My Captain!" />
-  <meta name="DC.creator" content="Walt Whitman" />
-  <meta name="DC.contributor" content="Alex Gil" />
-  <meta name="DC.date" content="" />
-  <meta name="DC.rights" content="" />
-  <meta name="DC.source" content="James Skripchuk" />
-
-    <!-- Open Graph metadata -->
-    
-    <meta property="og:title" content="O Captain! My Captain!" />
-    <meta property="og:description" content="An Ed edition">
-    <meta property="fb:admins" content="elotroalex" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="http://localhost:4000/texts/o-captain/" />
-    <meta property="fb:app_id" content="589495744558280" />
-    <meta property="og:image" content="http://localhost:4000/assets/open-graph-logo.png" />
-    <meta property="og:image:width" content="200" />
-    <meta property="og:image:height" content="200" />
-    
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
   <title>
     
@@ -39,16 +19,38 @@
     
   </title>
 
+  <!-- Dublin Core metadata for Zotero -->
+  <meta property="dc:title" content="O Captain! My Captain!" />
+  <meta property="dc:creator" content="Walt Whitman" />
+  <meta property="dc:identifier" content="http://localhost:4000/texts/o-captain/" />
+  <meta property="dc:contributor" content="Alex Gil" />
+  
+  
+  <meta property="dc:source" content="Poetry Foundation" />
+
+  <!-- Open Graph metadata -->
+  <meta property="og:title" content="O Captain! My Captain!" />
+  <meta property="og:url" content="http://localhost:4000/texts/o-captain/" />
+  <meta property="og:image" content="http://localhost:4000/assets/open-graph-logo.png" />
+  <meta property="og:image:width" content="200" />
+  <meta property="og:image:height" content="200" />
+  <meta property="fb:admins" content="elotroalex" />
+  <meta property="fb:app_id" content="589495744558280" />
+
+
+  <meta property="og:description" content="An Ed edition">
+  <meta property="og:type" content="article" />
+
+
   <!-- CSS link -->
   <link rel="stylesheet" href="/assets/css/style.css" />
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/apple-touch-icon-precomposed.png" />
-  
   <link rel="shortcut icon" href="/assets/favicon.ico" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/atom.xml" />
 </head>
 
 
@@ -63,18 +65,29 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
+<aside class="sidebar" id="sidebar">
   <div class="sidebar-item">
     
     <p id="line">Welcome to my website!</p>
     <script>
         //Some loading blurbs
         var blurbs = ["Reticulating Splines",
+                      "LL(1) Cool J",
+                      "Exploratory data analysis is just vibe checking your results.",
+                      "Lil' Pumping Lemma",
+                      "https://agusakov.github.io/james-skripchuk-generator/",
+                      "All problems in this world are caused by individuals",
+                      "They have hats! That's the problem!",
+                      "IV-V-iii-vi",
+                      "I'm here to see MF DOOM",
+                      "Human-Computer Incineration",
                       "D-E-F-G-E-C-D",
+                      "Multi Layer Perceptron: F1 is Magic",
                       "Jimmy'); DROP TABLE Students;--",
                       "ii-V-I",
                       "Notepad > Everything Else",
                       "C# is just boneless Java",
+                      "https://open.spotify.com/playlist/5rqfywGDmBZwo3iPNCzbvZ?si=8a7c708d17eb4873",
                       "MAXIMUM STOVERDRIVE",
                       "Raeda in fossa est.",
                       "Beep boop.",
@@ -101,17 +114,15 @@
       
     
       
-        
-      
-    
-      
-        
-      
     
       
         
           <a class="sidebar-nav-item" href="/about/">About Me</a>
         
+      
+    
+      
+    
       
     
       
@@ -145,7 +156,12 @@
     <a class="sidebar-nav-item" href="https://github.com/jskripchuk" target="_blank">My GitHub</a>
   </nav>
 
-</div>
+  <div class="sidebar-item">
+    <p>
+      Built with <a href="https://minicomp.github.io/ed/">Ed.</a> Distributed under an MIT license.
+    </p>
+  </div>
+</aside>
 
     
 
@@ -154,21 +170,21 @@
       collisions with our real content.
     -->
     <div class="wrap">
-      <div class="masthead">
+      <header class="masthead">
         <div class="container">
           <h3 class="masthead-title">
             <a href="/" title="Home">James Skripchuk</a>
             <br><small>Playing in everyone's backyard since 1998</small>
           </h3>
         </div>
-      </div>
+      </header>
 
-      <div class="container content" id="main">
-        <div class="poetry">
+      <main class="container content" id="main">
+        <article class="poem poetry">
   <h1 class="text-title">O Captain! My Captain!</h1>
   <p class="byline">Walt Whitman</p>
   <ul>
-  <li>O Captain! my Captain! our fearful trip is done;<sup id="fnref:fn1"><a href="#fn:fn1" class="footnote">1</a></sup></li>
+  <li>O Captain! my Captain! our fearful trip is done;<sup id="fnref:fn1" role="doc-noteref"><a href="#fn:fn1" class="footnote" rel="footnote">1</a></sup></li>
   <li>The ship has weather’d every rack, the prize we sought is won,</li>
   <li>The port is near, the bells I hear, the people all exulting,</li>
   <li>While follow eyes the steady keel, the vessel grim and daring;</li>
@@ -179,7 +195,7 @@
     <p>Fallen cold and dead.</p>
   </li>
   <li>O Captain! my Captain! rise up and hear the bells;</li>
-  <li>Rise up—for you the flag is flung—for you the bugle<sup id="fnref:fn2"><a href="#fn:fn2" class="footnote">2</a></sup> trills,</li>
+  <li>Rise up—for you the flag is flung—for you the bugle<sup id="fnref:fn2" role="doc-noteref"><a href="#fn:fn2" class="footnote" rel="footnote">2</a></sup> trills,</li>
   <li>For you bouquets and ribbon’d wreaths—for you the shores a-crowding,</li>
   <li>For you they call, the swaying mass, their eager faces turning;</li>
   <li class="indent-3">Here Captain! dear father!</li>
@@ -188,7 +204,7 @@
   <li class="indent-6">
     <p>You’ve fallen cold and dead.</p>
   </li>
-  <li>My Captain does not answer, his lips are pale and still,<sup id="fnref:fn3"><a href="#fn:fn3" class="footnote">3</a></sup></li>
+  <li>My Captain does not answer, his lips are pale and still,<sup id="fnref:fn3" role="doc-noteref"><a href="#fn:fn3" class="footnote" rel="footnote">3</a></sup></li>
   <li>My father does not feel my arm, he has no pulse nor will,</li>
   <li>The ship is anchor’d safe and sound, its voyage closed and done,</li>
   <li>From fearful trip the victor ship comes in with object won;</li>
@@ -204,9 +220,9 @@
 
 <h2 id="footnotes">Footnotes</h2>
 
-<div class="footnotes">
+<div class="footnotes" role="doc-endnotes">
   <ol>
-    <li id="fn:fn1">
+    <li id="fn:fn1" role="doc-endnote">
 
       <p>The author had just landed in La Guardia Airport after the flight captain died. All the passengers stood up to applaud the co-pilot. We have it in good authority that the event in question led Yoko Ono to write her “Letter to John”:</p>
 
@@ -219,20 +235,20 @@
           <li>That’s enough for me, that’s enough for me.</li>
         </ul>
       </blockquote>
-      <p><a href="#fnref:fn1" class="reversefootnote">&#x21a9;&#xfe0e;</a></p>
+      <p><a href="#fnref:fn1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
-    <li id="fn:fn2">
-      <p>The bugle is a small trumpet implicated in the military industrial complex. <a href="#fnref:fn2" class="reversefootnote">&#x21a9;&#xfe0e;</a></p>
+    <li id="fn:fn2" role="doc-endnote">
+      <p>The bugle is a small trumpet implicated in the military industrial complex. <a href="#fnref:fn2" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
-    <li id="fn:fn3">
-      <p>Another footnote. Why not? <a href="#fnref:fn3" class="reversefootnote">&#x21a9;&#xfe0e;</a></p>
+    <li id="fn:fn3" role="doc-endnote">
+      <p>Another footnote. Why not? <a href="#fnref:fn3" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
     </li>
   </ol>
 </div>
 
-</div>
+</article>
 
-      </div>
+      </main>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
