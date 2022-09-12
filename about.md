@@ -3,9 +3,11 @@ layout: page
 title: About Me
 ---
 
-My name is James Skripchuk, but you can just call me Jimmy! I'm working on a Computer Science degree in The University of Delaware's Honors College with a concentration in artificial intelligence and machine learning.
+My name is James Skripchuk, and I'm working on my Computer Science PhD at [North Carolina State University](https://www.ncsu.edu/) with a focus in Computer Science Education.
 
-Additionally, I'm also pursuing minors in Physics, Electrical Engineering, and Mathematics. If you want a more detailed list of my accomplishments, you can download my [CV](/download/skripchuk_cv_2020.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
+I am interested on how we can use data-driven methods to make learning Computer Science more accessible and authentic. My current research at the [HINTS Lab](https://hintslab.wordpress.ncsu.edu/) is investigating how students learn and conceptualize machine learning models. In addition to this, I am also interested in understanding how novice programmers seek for help on the Internet when they are stuck.
+
+If you want a more detailed list of my accomplishments, you can download my [CV](/download/skripchuk_cv_2021_v2.pdf) or look at my [LinkedIn](https://www.linkedin.com/in/jskripchuk/).
 
 ## Recognition
 <style>
@@ -28,7 +30,5 @@ I am very grateful to have received the 2018 Steven Geracimos Memorial Award by 
 
 ## Hobbies
 
-I have a passion for science and science education. I'm a total music theory nerd with a penchant for jazz and experimental electronic music.
-
-I'm an alumni of [MOE 365](http://moe365.org/), a robotics team consisting of high-schoolers from the tri-state area. I also mentor for one of [Newark Charter School's](https://www.newarkcharterschool.org/) robotics teams and help middle school children develop science and engineering skills.
+I have a passion for science and science education. I'm a total music theory nerd with a penchant for [digital fusion](https://www.digifumusic.com/), jazz, and experimental electronic music. Anonymity on the internet is fake, so you'll probably be able to find my musical alias if you look hard enough.
 

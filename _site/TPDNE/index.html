@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Canonical link to help search engines -->
+  <link rel="canonical" href="/TPDNE/" />
+
+  <!-- Basic meta elements -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Enable responsiveness on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+  <!-- Dublin Core metadata for Zotero -->
+  <meta name="DC.title" content="How I Made an AI Generate Synth1 Presets" />
+  <meta name="DC.creator" content="James Skripchuk" />
+  <meta name="DC.contributor" content="" />
+  <meta name="DC.date" content="" />
+  <meta name="DC.rights" content="" />
+  <meta name="DC.source" content="James Skripchuk" />
+
+    <!-- Open Graph metadata -->
+    
+    <meta property="og:title" content="How I Made an AI Generate Synth1 Presets" />
+    <meta property="og:description" content="An Ed edition">
+    <meta property="fb:admins" content="elotroalex" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://localhost:4000/TPDNE/" />
+    <meta property="fb:app_id" content="589495744558280" />
+    <meta property="og:image" content="http://localhost:4000/assets/open-graph-logo.png" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    
+
+  <title>
+    
+      How I Made an AI Generate Synth1 Presets
+    
+  </title>
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/assets/apple-touch-icon-precomposed.png" />
+  
+  <link rel="shortcut icon" href="/assets/favicon.ico" />
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
+</head>
+
+
+  <body class="theme-base-blue">
+
+    <!-- This if statement decides which sidebar to use -->
+    
+    <!--
+  Target for toggling the sidebar `.sidebar-checkbox` is for regular styles, `#sidebar-checkbox` for
+  behavior.
+-->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    
+    <p id="line">Welcome to my website!</p>
+    <script>
+        //Some loading blurbs
+        var blurbs = ["Reticulating Splines",
+                      "D-E-F-G-E-C-D",
+                      "Jimmy'); DROP TABLE Students;--",
+                      "ii-V-I",
+                      "Notepad > Everything Else",
+                      "C# is just boneless Java",
+                      "MAXIMUM STOVERDRIVE",
+                      "Raeda in fossa est.",
+                      "Beep boop.",
+                      "Carthago delenda est.",
+                      "Assume ideal gas.",
+                      "π=e to one significant figure.",
+                      "[Gradient descends into your DMs]",
+                      "Playing in everyone's backyard since 1998."]
+        
+        var rand = Math.floor(Math.random() * blurbs.length); 
+        document.getElementById("line").innerHTML = blurbs[rand];
+      </script>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About Me</a>
+        
+      
+    
+      
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/blog/">Blog</a>
+        
+      
+    
+
+    <!-- The code below is used for manually entered links  -->
+    <!--<span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
+      hypothesis.setAttribute('src','https://hypothes.is/embed.js');
+      document.head.appendChild(hypothesis);"><a class="sidebar-nav-item">Annotate me</a></span>
+    -->
+
+  <!--
+    <a class="sidebar-nav-item" href="https://via.hypothes.is/http://localhost:4000/TPDNE//" data-proofer-ignore>Annotate me</a>
+    <script src="https://hypothes.is/embed.js" async></script>
+  -->
+
+    <a class="sidebar-nav-item" href="https://github.com/jskripchuk" target="_blank">My GitHub</a>
+  </nav>
+
+</div>
+
+    
+
+    <!--
+      Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS
+      collisions with our real content.
+    -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">James Skripchuk</a>
+            <br><small>Playing in everyone's backyard since 1998</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content" id="main">
+        <div class="post">
+  <h1 class="text-title">How I Made an AI Generate Synth1 Presets</h1>
+  <p>This blog post is a technical explanation of my website that generates Synth1 presets - <a href="www.thispatchdoesnotexist.com">www.thispatchdoesnotexist.com</a></p>
+
+<p>The code for the model is available <a href="https://github.com/jskripchuk/Synth1GAN">here.</a></p>
+
+<p>This article was written during the summer of 2020, so it may sound like some things are in the past. I’m now in North Carolina doing CSEd PhD things!</p>
+
+<h1 id="tldr-takeaways"><strong>TL;DR Takeaways</strong></h1>
+
+<ul>
+  <li>Refactor your data processing pipeline early and often</li>
+  <li>Don’t be afraid to use models you don’t fully understand if it works (and it’s for something goofy)</li>
+</ul>
+
+<h1 id="intro"><strong>Intro</strong></h1>
+<p>In May I graduated from the University of Delaware. This August I’m moving down to North Carolina to begin my PhD in Data-Driven Computer Science Education. I decided to take some time off and enjoy these last few months of respite (as well as one can with COVID and all that) before I get on that #phdgrind.</p>
+
+<p>I quickly learned that I really only need a few weeks of leisure to recharge and around early June I started to feel the itch to work on something computer related again.</p>
+
+<p>It was around then when I found Nintorac Audio’s <a href="https://www.thisdx7cartdoesnotexist.com/">This DX7 Cartridge Does Not Exist</a>. As an avid music nerd and someone who most definitely knows what a neural network is, I found my new obsession for the month of June.</p>
+
+<h1 id="synth1-every-bedroom-producers-first-vst"><strong>Synth1: Every Bedroom Producer’s First VST</strong></h1>
+<p>When I first got into music production in high-school, one of the most recommended synth-plugins to beginner’s was Dachi Lab’s Synth1. It’s simple yet versatile, has been around forever, and there’s tons of preset banks floating around on the internet so you can start making cool sounds immediately. The best thing though? It’s completely free!</p>
+
+<div>
+   <img class="image" src="/assets/TPDNE/synth1.png" />
+    <p style="text-align: center;"><em>Fig 1. The Synth1 Interface</em></p>
+
+</div>
+
+<p>There’s a giant compilation of 25,000 presets that floats around the internet, this huge amount of training data combined with how widespread Synth1 is, making an AI to generate Synth1 presets seemed like a no-brainer.</p>
+
+<h1 id="data-wrangling-part-1"><strong>Data Wrangling Part 1</strong></h1>
+<h2 id="exploring-the-dataset"><strong>Exploring the Dataset</strong></h2>
+<p>The first thing I needed to do was to see how hard it would be to transform Synth1 presets into a nice and easy format to feed into whatever model I design.</p>
+
+<p>After cracking open one of the *.sy1 files, I was greeted with something like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Astro Belt-lk
+color=green
+ver=112
+0,1
+45,14
+76,8
+1,3
+2,64
+3,81
+4,1
+5,64
+6,1
+7,0
+... etc.
+</code></pre></div></div>
+
+<p>The first line is the name of the preset. <code class="highlighter-rouge">color</code> is what color the preset is in Synth1’s preset browser. <code class="highlighter-rouge">ver</code> is a bit tricky, it’s what version of Synth1 the preset was made in (we’ll talk more about this later).</p>
+
+<p>The remaining lines are key-value pairs for the different parameters of the patch. After some searching, I discovered <a href="https://sound.eti.pg.gda.pl/student/eim/doc/Synth1.pdf">this manual</a> which details what parameter number controls. For example, the key <code class="highlighter-rouge">3</code> corresponds to <code class="highlighter-rouge">osc2 tune</code>. The set of values for each parameter is detailed further in the document, so <code class="highlighter-rouge">osc2 tune</code> takes integers from 0-127, making 64 being in tune and any deviations higher or lower being higher or lower in tune respectively.</p>
+
+<p>I wrote a script to load all of the presets into a single CSV, each row being a preset and each column being a value.  After throwing out NaNs, I was left with about 12k presets. Not a bad amount of data if I say so myself.</p>
+
+<p>After some exploratory data analysis, I noticed the following things:</p>
+
+<p>Aside from the top 3 lines, order doesn’t matter for any of the other key-value pairs
+All the values were integers
+Some parameters were categorical. For example, with the parameter for “wave shape”, a sine wave would take the value 1, a saw wave would be 2, square 3, etc…
+Otherwise, most vars were between 0-127</p>
+
+<h2 id="version-control"><strong>Version Control</strong></h2>
+
+<p>Just as a sanity check, I decided to see if I could convert a row in the CSV back into the preset form and write it to a text file. This would show that if the model just generates a row in the table, I can convert it into preset form easily.</p>
+
+<p>All seemed good, but then I noticed something strange. The raw file from training and the second one is what I wrote to a file after loading it into the CSV and back sounded different. The text is (almost) the same so they should sound exactly the same.</p>
+
+<p>But they didn’t.</p>
+
+<p>After some more digging in the manual, I discovered something that complicated things immensely. I was saving all of my presets in the most recent Synth1 version number (1.13), even if my training data was from old Synth1 versions.</p>
+
+<p>When Synth1 updates, sometimes changes are made to how the parameters behave. For example, between versions 1.06 and 1.07, negative values for filter amount were added. So now instead of the values 0-127 representing a filter range from 0-100%, they now represent a range from -100-100%.</p>
+
+<p>To avoid messing up old patches, it looks like Synth1 simulates older versions of itself by looking at the version on the third line of the preset file, and then playing that preset with that specific version engine.</p>
+
+<p>From a user standpoint, this makes a lot of sense because you don’t want every update to break all your patches. But from my super specific standpoint, this was a pain. I was writing everything to the latest version of Synth1 (1.12) because I thought it would remain the same. Guess not.</p>
+
+<p>This throws a wrench in how I want to do everything. Now my one big 25,000 dataset is 8 small datasets. Below I listed how many preset files I had for each version.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Version Num.</th>
+      <th>Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>105</td>
+      <td>1200</td>
+    </tr>
+    <tr>
+      <td>106</td>
+      <td>4666</td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>566</td>
+    </tr>
+    <tr>
+      <td>108</td>
+      <td>2594</td>
+    </tr>
+    <tr>
+      <td>109</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>121</td>
+    </tr>
+    <tr>
+      <td>112</td>
+      <td>2331</td>
+    </tr>
+    <tr>
+      <td>113</td>
+      <td>170</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>1) Do I try and write a script that “updates” older versions into newer ones to exactly match the sound? That’s tedious and probably not worth the effort.</p>
+
+<p>2) Do I make the version a parameter that the ML model learns? I don’t think I know enough about ML to make that happen, plus that seems overly complicated.</p>
+
+<p>3) Do I train on just a specific version? Better, but the largest dataset contains only around 4.5k data points compared to the original. That’s not even half.</p>
+
+<p>4) Or, do I just throw all of it into the model and see what it spits out?</p>
+
+<p>I decided to go with option three during my initial prototyping phase when building the model: using only version 1.06. It’s not a lot of data which will probably bite me later, but I’m impatient, too lazy to clean data, and want to start generating presets now dangit!</p>
+
+<h1 id="the-model-part-1"><strong>The Model: Part 1</strong></h1>
+<p>Now I had to decide on what type of model I was going to use to generate the presets. The DX7 generator uses something called a Variational Autoencoder (VAE), which essentially learns to “compress” the data from a higher dimensional space into a lower one, and then tries to reconstruct it on the other side - allowing you to then tweak the values in the lower dimension to create novel samples in the higher dimension.</p>
+
+<div>
+   <img class="image" src="/assets/TPDNE/VAE.png" />
+  <p style="text-align: center;"><em>Fig 2. The structure of a VAE</em></p>
+
+</div>
+
+<p>However, I quickly realized that I don’t completely understand how VAEs work, so I decided to switch to something I understand better: Generative Adversarial Networks (GANs). <a href="https://developers.google.com/machine-learning/gan/gan_structure">Here’s a link to a good explanation</a>, but here’s my TL;DR.</p>
+
+<div>
+   <img class="image" src="/assets/TPDNE/GAN.jpg" />
+   <p style="text-align: center;"><em>Fig 3. The structure of a GAN</em></p>
+</div>
+
+<p>A GAN is essentially making two neural networks fight against each other for our own benefit.</p>
+
+<p>The AI is made up of two parts, a generator and a discriminator. The discriminator learns to detect whether a given preset is fake or not, while the generator learns how to fool the discriminator. Over time, the discriminator gets better at detecting fakes, while the generator gets better at generating fakes. At the end, the generator ends up producing pretty convincing fakes, which are then sent to you!</p>
+
+<p>At least, that’s the theory.</p>
+
+<p>So, I hunted around for some preexisting GAN code that I could use and I stumbled upon <a href="https://github.com/eriklindernoren/PyTorch-GAN">this repository</a>, which hosted more GANs then I knew what to do with. Apparently, there’s lots of different tweaks and tricks that researchers have done over the years to improve performance. 
+For my first batch, I just decided to go with the bare minimum GAN with no fancy addons.</p>
+<h1 id="initial-results"><strong>Initial Results</strong></h1>
+
+<p>Initial results were… <em>interesting</em> to say the least. They were quite abstract, noisy, and not really musical at all.</p>
+
+<p>While I do enjoy funky and out there sounds such as these, this really isn’t what I set out to do with this project. I wanted to create more safe and playable patches.</p>
+
+<p>It was at this point that I hit a wall for a few days. This is the point where years of experience reigns supreme over me taking a single machine learning course in undergrad, browsing the theory on Wikipedia, and reading a few Medium posts. This is where the aggressive searching and trawling through forum posts began.</p>
+
+<p>Here’s what I learned and the revisions I made to my pipeline.</p>
+
+<h1 id="data-wrangling-part-2"><strong>Data Wrangling: Part 2</strong></h1>
+
+<p>After some tests, instead of training on all of the parameters; I sat down and tried to figure out the essentials. Here’s a list of all the params I thought weren’t adding too much to the sound and threw out of the model with some comments.</p>
+
+<p>I also did some more data viz in the feature engineering jupyter notebook and dropped vars which had a low amount of variance.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>to_drop = [
+	"name",
+	"osc1 fm modulation", #Don’t want to mess with FM
+	"osc2 pitch", #Coarse pitch: with this left in you have osc2 playing a completely different note than osc1, and 9 times outta 12 this just sounds bad. So I think it was better to just make both oscillators play the same note
+	"osc2 kbd track", #Keyboard tracking is usually something dialed down and is performer specific
+	"osc key shift",
+	"arp. on/off", #I don’t want to mess with the built in arpeggiator, it doesn’t add to the “sound”
+	"arp type",
+	"arp range",
+	"arp beat",
+	"arp gate",
+	"equalizer tone", #While EQ is important, for now I just decided to leave it up to the performer
+	"equalizer freq.",
+	"equalizer level",
+	"equalizer Q",
+	"pitch bend range" #Don’t want any pitch bend controls
+</code></pre></div></div>
+
+<p>In the end, my model was training on a <em>much</em> smaller subset of parameters, only about a dozen.</p>
+
+<p>Finally, I did away with all pretense of separating versions and ended up throwing all 25k presets into one big batch. I knew this might not be completely accurate and there would be subtle errors, but at this point I was pulling out all the stops and wanted to get something workable.</p>
+
+<h2 id="normalize-me-capn"><strong>Normalize me Cap’n!</strong></h2>
+<p>Probably the first thing I should have done, but it never occurred to me. ML models usually perform better if you normalize the data to a fixed range beforehand, since that allows the model to push gradients better without them vanishing or exploding.</p>
+
+<p>My model was using a tanh activation function, so my research found that normalizing my data to [-1,1] would give the best results.</p>
+
+<h2 id="one-hotline-bling"><strong>One Hotline Bling</strong></h2>
+<p><em>However</em>, not all of my data was numerical. In fact, a lot of my data was categorical: wave shape, filter type, delay type, etc.</p>
+
+<p>One of the biggest things I learned in my research was that if I tried to feed categorical data into the model as it exists now, it wouldn’t give good results. If a sine wave is represented by a 1, and a square wave is represented by a 3, the square wave isn’t really “three times as large” as the sine wave.</p>
+
+<p>I learned that the way you usually remedy this is by using a <em>one-hot encoding</em> of the categorical variables. Instead of having a single variable take on a range of <em>N</em> values, instead add <em>N</em> new parameters and have a binary number indicate which data parameter is present.</p>
+
+<div>
+   <img class="image" src="/assets/TPDNE/onehot.png" />
+    <p style="text-align: center;"><em>Fig 4. One-hot encodings example</em></p>
+
+</div>
+
+<p>So instead of having a single column “Wave Shape” contain [Sine, Saw, Square, Triangle], now we add four new columns to the table, and now a row having a Saw wave would have that represented as the bit vector [0,1,0,0].</p>
+
+<p>In theory, this should work fine, but in practice there were some minor issues I had to overcome. When converting back from one-hot encoding to the standard categorical variable, my strategy was to round everything to the nearest integer since I already had that pipeline set up from the previous iteration.</p>
+
+<p>For example, if the model spit out something such as [0.2,0.1,0.9,0.4] for the encodings, it would transform it into [0,0,1,0]. Then we can reverse the one hot encoding and get back our original categorical variable (Square). However, sometimes the model gave back some bogus answers such as [0.9,0.8,0.4,0.8], which would be [1,1,0,1].</p>
+
+<p>In hindsight, I could have just fixed this by making the categorical variable the maximum value in the one hot encoding (which would be 0.9 in this case), but this problem didn’t occur that often so I was fine with just throwing out the bogus generated data.</p>
+
+<h1 id="the-model-part-2"><strong>The Model: Part 2</strong></h1>
+
+<p>Now that my data was cleaned up, I looked into seeing if I could also tune up my model a bit more. I will be completely honest, I really don’t know the why and how these novel GAN variants end up being better then the stock GAN, so I’m not going to try and explain them. I’m just taking them as a black box that performs better than the standard GAN.</p>
+
+<p>I ended up used a variant called the <em>Wasserstein GAN GP</em>. This is actually a variant of a variant, and based off of the Wasserstein GAN (or WGAN for short). The GP stands for “Gradient Penalty”</p>
+
+<p>Again I’m not gonna say much about these two since I barely understand them myself, so here’s <a href="https://medium.com/@jonathan_hui/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490">some resources</a> to learn more about them :P</p>
+
+<h1 id="training-takes-time"><strong>Training Takes Time</strong></h1>
+<p>One thing I did take away with all of this is that I need to be more patient in training my models. In all previous iterations, I was only letting it train for a few thousand batches, which took around an hour or two.</p>
+
+<p>However, after making the changes to my data above and changing my model code, I decided to just leave it on while I watched Avatar with my friends for a few hours. I came back, and a few more hours of training really did the trick! I was actually starting to get really cool results!</p>
+
+<p>So, I decided to buckle down and leave the model to train overnight while I slept for around 8 hours. And that version is the model that is up online today.</p>
+
+<h1 id="name-generation"><strong>Name Generation</strong></h1>
+<p>You might notice that each synth preset also has a (somewhat) unique name. These are generated separately from the synth generation with a Recurrent Neural Network (RNN). RNNs are good at working with sequential data, like names.</p>
+
+<div>
+   <img class="image" src="/assets/TPDNE/rnns.png" />
+    <p style="text-align: center;"><em>Fig 5. Various types of RRNs</em></p>
+
+</div>
+
+<p>My goal was to generate names based off of the parameters of the synth. This would be a “one to many” type problem in the image above: the input being the fixed length set of synth parameters and the output being the variable length name.</p>
+
+<p>So for example, if the parameters of a synth made it sound like a bass patch, hopefully the name would contain the word “bass” in it somewhere.</p>
+
+<p>I ended up doing something similar to when I refactored my GAN above; which is using more advanced models without trying super hard to understand the math. Instead of the standard RNN cell, I decided to use a LSTM based architecture, which is noted for being good at handling longer term dependencies.</p>
+
+<p>Since this was less important (at least to me) than getting sounds playing, I didn’t spend as much time on the naming. Thus, in the actual production site, there’s quite a few duplicate names and some words show up more than others. (The name “SYNTH BASS” seems to show up a lot.)</p>
+
+<h1 id="conclusion"><strong>Conclusion</strong></h1>
+<p>Now that the model was finished, all that was left was to put it online and spread the word. I thought that would be easy, but it was much more of a hassle than I thought (which is probably a blog post for another day).</p>
+
+</div>
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+
+    // Highlight search Query
+    var url = window.location.href;
+      if (url.lastIndexOf("?q=") > 0) {
+        // get the index of the parameter, add three (to account for length)
+        var stringloc = url.lastIndexOf("?q=") + 3;
+        // get the substring (query) and decode
+        var searchquery = decodeURIComponent(url.substr(stringloc));
+        // regex matches at beginning of line, end of line or word boundary, useful for poetry
+        var regex = new RegExp("(?:^|\\b)(" + searchquery + ")(?:$|\\b)", "gim");
+        // get, add mark and then set content
+        var content = document.getElementById("main").innerHTML;
+        document.getElementById("main").innerHTML = content.replace(regex, "<mark>$1</mark>");
+      }
+
+      // Toggle sidebar
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             !sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+
+<!-- Facebook SDK for JavaScript -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '589495744558280',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+  </body>
+</html>
