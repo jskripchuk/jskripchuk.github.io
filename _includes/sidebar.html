@@ -50,6 +50,7 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
+    {% comment %}
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null and node.url != "/404.html" %}
@@ -58,6 +59,7 @@
         {% endif %}
       {% endif %}
     {% endfor %}
+    {% endcomment %}
 
     <!-- The code below is used for manually entered links  -->
     <!--<span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
