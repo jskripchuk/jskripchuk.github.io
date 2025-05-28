@@ -1,0 +1,55 @@
+.container {
+display: grid;
+grid-template-areas:
+	"header header"
+	"menu content"
+	"footer footer";
+grid-template-columns: 1fr 3fr;
+gap: 10px;
+padding: 5px;
+}
+
+@font-face {
+	font-family: "Stereo";
+	src: url("./ster.otf")
+}
+
+h1{
+	font-family: "Stereo";
+	color: white;
+	font-size: 5em;
+	letter-spacing: 0.1rem;
+	margin-bottom: -0.1em;
+}
+
+.container > div {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 10px;
+}
+.container > div.header {
+grid-area: header;
+text-align: center;
+}
+.container > div.menu {
+grid-area: menu;
+}
+.container > div.content {
+grid-area: content;
+}
+.container > div.footer {
+grid-area: footer;
+}
+
+#profile{
+	width: 400px;
+}
+
+body{
+	background-image: url("./boat2.png");
+	padding-left: 50px;
+	padding-right: 50px;
+	max-width: 1200px;
+	margin: auto;
+	background-attachment: fixed;
+	margin-top: -2rem;
+}
