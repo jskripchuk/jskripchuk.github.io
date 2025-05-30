@@ -1,8 +1,36 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
+<head>
+  <link rel="stylesheet" href="{{ get_url(path='index.css') | safe }}" />
+</head>
+<!-- <h1 class="title">
   This is my blog made with Zola.
-</h1>
-<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p>
+</h1> -->
+<div class = "style-container">
+
+  <div class = "header">
+    <h2>James Skripchuk</h2>
+    <h3>Assistant Teaching Professor</h3>
+  </div>
+
+  <div class = "menu">
+    <p>test</p>
+    <p>test</p>
+    <p>test</p>
+    <p>test</p>
+    <p>test</p>
+  </div>
+
+  <div class = "content">
+    <img id="headshot" src="headshot.jpg">
+    <p>Content content</p>
+  </div>
+
+  <div class = "footer">
+    <p>Footer test</p>
+  </div>
+</div>
+
+<!-- <p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a>.</p> -->
 {% endblock content %}
