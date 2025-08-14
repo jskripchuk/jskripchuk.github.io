@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class = "content-div">
+<h1 class="title">
+  {{ section.title }}
+</h1>
+
+  {% for page in section.pages %}
+  <div>
+    <h2>{{ page.title }}</h2>
+
+    {% for author in page.authors %} 
+      {{author}}
+
+    {% endfor %}
+    
+    {{ page.summary | safe}}
+  </div>
+    
+  {% endfor %}
+</div>
+
+<!-- <ul>
+
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {{ page.summary | safe}}
+  {% endfor %}
+</ul> -->
+{% endblock content %}
